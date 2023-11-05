@@ -1,0 +1,217 @@
+[{
+        "partido": {
+            "marcadorPorEquipo": {
+                "Huracan": 1,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Union Santa Fe": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Sarmiento Junin": 1,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Velez Sarsfield": 1,
+                "Godoy Cruz": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Lanus": 0,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Arsenal Sarandi": 0,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Tigre": 2,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Argentinos JRS": 1,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Belgrano Cordoba": 2,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Velez Sarsfield": 2,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Rosario Central": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Estudiantes L.P.": 2,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "San Lorenzo": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Colon Santa Fe": 2,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Barracas Central": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Instituto Cordoba": 1,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Banfield": 3,
+                "Velez Sarsfield": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Defensa Y Justicia": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "Velez Sarsfield": 4
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Platense": 1,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Talleres Cordoba": 1,
+                "Velez Sarsfield": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Boca Juniors": 2,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Atletico Tucuman": 1,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Independiente": 0,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Newells Old Boys": 1,
+                "Velez Sarsfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Gimnasia L.P.": 1,
+                "Velez Sarsfield": 3
+            }
+        }
+    }
+]

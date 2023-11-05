@@ -1,0 +1,217 @@
+[{
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Rosario Central": 3,
+                "River Plate": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Estudiantes L.P.": 1,
+                "River Plate": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "San Lorenzo": 0,
+                "River Plate": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Colon Santa Fe": 0,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Barracas Central": 2,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Instituto Cordoba": 1,
+                "River Plate": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Defensa Y Justicia": 0,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Banfield": 1,
+                "River Plate": 4
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Velez Sarsfield": 2,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Platense": 1,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Talleres Cordoba": 2,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Boca Juniors": 0,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Atletico Tucuman": 1,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Independiente": 0,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Newells Old Boys": 0,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Gimnasia L.P.": 0,
+                "River Plate": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Huracan": 0,
+                "River Plate": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Union Santa Fe": 0,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Sarmiento Junin": 0,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "River Plate": 3,
+                "Godoy Cruz": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Lanus": 0,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Arsenal Sarandi": 2,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Tigre": 0,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Argentinos JRS": 1,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Belgrano Cordoba": 2,
+                "River Plate": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "River Plate": 2
+            }
+        }
+    }
+]

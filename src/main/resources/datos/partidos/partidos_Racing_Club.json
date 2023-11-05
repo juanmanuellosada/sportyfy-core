@@ -1,0 +1,217 @@
+[{
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "River Plate": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 3,
+                "Central Cordoba de Santiago": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "Rosario Central": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Estudiantes L.P.": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "San Lorenzo": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 4,
+                "Colon Santa Fe": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "Barracas Central": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Velez Sarsfield": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "Instituto Cordoba": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Banfield": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Defensa Y Justicia": 1,
+                "Racing Club": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Platense": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Talleres Cordoba": 4
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Boca Juniors": 3,
+                "Racing Club": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "Atletico Tucuman": 3
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Independiente": 1,
+                "Racing Club": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Newells Old Boys": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Gimnasia L.P.": 3,
+                "Racing Club": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Huracan": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 3,
+                "Union Santa Fe": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 1,
+                "Sarmiento Junin": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Godoy Cruz": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Lanus": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 3,
+                "Arsenal Sarandi": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 2,
+                "Tigre": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Argentinos JRS": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 0,
+                "Belgrano Cordoba": 0
+            }
+        }
+    }
+]

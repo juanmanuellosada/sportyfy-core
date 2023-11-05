@@ -1,0 +1,217 @@
+[{
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "Atletico Tucuman": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Racing Club": 3,
+                "Central Cordoba de Santiago": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Independiente": 1,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Rosario Central": 2,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 2,
+                "Newells Old Boys": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 1,
+                "Estudiantes L.P.": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Gimnasia L.P.": 0,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "San Lorenzo": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 2,
+                "Huracan": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Colon Santa Fe": 2,
+                "Central Cordoba de Santiago": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Union Santa Fe": 1,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 2,
+                "Barracas Central": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Sarmiento Junin": 1,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Instituto Cordoba": 0,
+                "Central Cordoba de Santiago": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "Godoy Cruz": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Banfield": 1,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 1,
+                "Lanus": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Defensa Y Justicia": 1,
+                "Central Cordoba de Santiago": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Arsenal Sarandi": 0,
+                "Central Cordoba de Santiago": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "Velez Sarsfield": 4
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Tigre": 0,
+                "Central Cordoba de Santiago": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 1,
+                "Platense": 1
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 1,
+                "Argentinos JRS": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "Talleres Cordoba": 2
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Belgrano Cordoba": 1,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Boca Juniors": 0,
+                "Central Cordoba de Santiago": 0
+            }
+        }
+    },
+    {
+        "partido": {
+            "marcadorPorEquipo": {
+                "Central Cordoba de Santiago": 0,
+                "River Plate": 2
+            }
+        }
+    }
+]
