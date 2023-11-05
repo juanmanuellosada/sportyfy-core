@@ -1,6 +1,10 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Ignorar archivos y directorios generados por Gradle
+build/
+.gradle/
+.idea/
 
-# Ignore Gradle build output directory
-build
-.idea
+# Ignorar archivos específicos de IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
