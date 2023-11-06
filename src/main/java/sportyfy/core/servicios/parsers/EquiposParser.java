@@ -21,11 +21,11 @@ public class EquiposParser {
      * @throws IllegalArgumentException Si el nombre del equipo es demasiado corto o vacío.
      */
     public List<Equipo> crearEquiposDesdeArchivos(String rutaCarpetaPartidos) throws IOException {
-        List<String> nombresArchivos = LectorJson.leerNombresArchivosJsons(Path.of(rutaCarpetaPartidos));
+        List<String> nombresArchivos = LectorJson.leerNombresArchivosJsons(rutaCarpetaPartidos);
         return nombresArchivos.stream()
                 .map(this::extraerNombreEquipoDesdeNombreArchivo)
                 .map(nombreEquipo -> {
-                    if (nombreEquipo.isBlank()) {
+                    if (nombreEquipo.isEmpty()) {
                         throw new IllegalArgumentException("El nombre del equipo está o vacío.");
                     }
                     return new Equipo(nombreEquipo);
