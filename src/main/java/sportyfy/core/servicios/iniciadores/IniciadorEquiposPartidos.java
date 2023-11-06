@@ -31,13 +31,14 @@ public class IniciadorEquiposPartidos {
      * @throws IOException Si hay un error al leer los archivos.
      */
     public static List<?> iniciar(String rutaCarpetaPartidosJugados, TipoInicializacion tipoInicializacion, List<Equipo> equipos) throws IOException {
-        return switch (tipoInicializacion) {
-            case EQUIPOS -> new EquiposParser().crearEquiposDesdeArchivos(rutaCarpetaPartidosJugados);
-            case PARTIDOS -> {
-                Path rutaCarpeta = Path.of(rutaCarpetaPartidosJugados);
-                yield new PartidosParser(equipos).crearPartidos(rutaCarpeta, new ObjectMapper());
-            }
-        };
+        if (tipoInicializacion == TipoInicializacion.EQUIPOS) {
+            return new EquiposParser().crearEquiposDesdeArchivos(rutaCarpetaPartidosJugados);
+        } else if (tipoInicializacion == TipoInicializacion.PARTIDOS) {
+            Path rutaCarpeta = Path.of(rutaCarpetaPartidosJugados);
+            return new PartidosParser(equipos).crearPartidos(rutaCarpeta, new ObjectMapper());
+        } else {
+            throw new IllegalArgumentException("Tipo de inicialización no válido: " + tipoInicializacion);
+        }
     }
 
 }
