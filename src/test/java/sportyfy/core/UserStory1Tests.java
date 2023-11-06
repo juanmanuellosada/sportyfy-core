@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
-public class TestVerdadero {
+public class UserStory1Tests {
 
     @Test
     void ca1() {
