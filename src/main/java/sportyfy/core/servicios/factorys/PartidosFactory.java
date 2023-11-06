@@ -8,7 +8,8 @@ import sportyfy.core.servicios.buscadores.BuscadorEquipos;
 import java.util.List;
 
 /**
- * Clase que se encarga de crear los partidos a partir de los archivos de partidos.
+ * Clase que se encarga de crear los partidos a partir de los archivos de
+ * partidos.
  */
 public class PartidosFactory {
     /**
@@ -20,7 +21,8 @@ public class PartidosFactory {
      */
     public static Partido crearPartido(PartidoDTO partidoDTO, List<Equipo> equipos) {
         String nombreLocal = partidoDTO.getPartido().getMarcadorPorEquipo().keySet().stream().findFirst().orElse(null);
-        String nombreVisitante = partidoDTO.getPartido().getMarcadorPorEquipo().keySet().stream().skip(1).findFirst().orElse(null);
+        String nombreVisitante = partidoDTO.getPartido().getMarcadorPorEquipo().keySet().stream().skip(1).findFirst()
+                .orElse(null);
 
         Equipo equipoLocal = BuscadorEquipos.encontrarEquipoPorNombre(nombreLocal, equipos);
         Equipo equipoVisitante = BuscadorEquipos.encontrarEquipoPorNombre(nombreVisitante, equipos);

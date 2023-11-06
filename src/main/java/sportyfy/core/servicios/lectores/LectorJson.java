@@ -26,7 +26,8 @@ public class LectorJson {
      */
     public static List<PartidoDTO> leerPartidos(String rutaArchivo, ObjectMapper objectMapper) {
         try {
-            return objectMapper.readValue(new File(rutaArchivo), new TypeReference<List<PartidoDTO>>() {});
+            return objectMapper.readValue(new File(rutaArchivo), new TypeReference<List<PartidoDTO>>() {
+            });
         } catch (IOException e) {
             logger.severe("Error al leer el archivo " + rutaArchivo + ": " + e.getMessage());
             return null;
@@ -34,7 +35,8 @@ public class LectorJson {
     }
 
     /**
-     * Lee los nombres de los archivos JSON desde una carpeta y los devuelve como una lista de cadenas.
+     * Lee los nombres de los archivos JSON desde una carpeta y los devuelve como
+     * una lista de cadenas.
      *
      * @param rutaCarpeta La carpeta que contiene los archivos JSON.
      * @return Una lista de nombres de archivos JSON.

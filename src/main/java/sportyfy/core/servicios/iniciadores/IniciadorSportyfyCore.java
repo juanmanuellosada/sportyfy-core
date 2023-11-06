@@ -16,7 +16,8 @@ import java.util.Set;
  */
 public class IniciadorSportyfyCore {
 
-    private final String rutaCarpetaPartidos = LectorProperties.leerProperties("rutaCarpetaPartidosJugados", "src/main/resources/datos/partidos");
+    private final String rutaCarpetaPartidos = LectorProperties.leerProperties("rutaCarpetaPartidosJugados",
+            "src/main/resources/datos/partidos");
 
     /**
      * Inicializa el núcleo del sistema Sportyfy.
@@ -27,8 +28,10 @@ public class IniciadorSportyfyCore {
      */
     @SuppressWarnings("unchecked")
     public SportyfyCore iniciar(String rutaPronosticadores) throws IOException {
-        List<Equipo> equipos = (List<Equipo>) IniciadorEquiposPartidos.iniciar(rutaCarpetaPartidos, IniciadorEquiposPartidos.TipoInicializacion.EQUIPOS, null);
-        List<Partido> partidos = (List<Partido>) IniciadorEquiposPartidos.iniciar(rutaCarpetaPartidos, IniciadorEquiposPartidos.TipoInicializacion.PARTIDOS, equipos);
+        List<Equipo> equipos = (List<Equipo>) IniciadorEquiposPartidos.iniciar(rutaCarpetaPartidos,
+                IniciadorEquiposPartidos.TipoInicializacion.EQUIPOS, null);
+        List<Partido> partidos = (List<Partido>) IniciadorEquiposPartidos.iniciar(rutaCarpetaPartidos,
+                IniciadorEquiposPartidos.TipoInicializacion.PARTIDOS, equipos);
         Set<Pronosticador> pronosticadores = new BuscadorPronosticadores().buscarPronosticadores(rutaPronosticadores);
 
         return new SportyfyCore(pronosticadores, equipos, partidos);

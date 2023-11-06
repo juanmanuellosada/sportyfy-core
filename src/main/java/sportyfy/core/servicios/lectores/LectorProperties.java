@@ -11,6 +11,7 @@ import java.util.logging.Logger;
 public class LectorProperties {
 
     private static final Logger logger = Logger.getLogger(LectorProperties.class.getName());
+
     /**
      * Lee un archivo de propiedades y devuelve el valor de una propiedad.
      *
@@ -39,6 +40,5 @@ public class LectorProperties {
 
         return prop.getProperty(propertie);
     }
-
 
 }

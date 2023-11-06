@@ -41,7 +41,7 @@ public class SportyfyCore {
     /**
      * Pronostica un partido
      *
-     * @param partido            Partido a pronosticar
+     * @param partido             Partido a pronosticar
      * @param nombrePronosticador Nombre del pronosticador
      * @throws IllegalArgumentException Si no se encuentra el pronosticador
      */

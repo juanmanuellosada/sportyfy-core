@@ -11,6 +11,7 @@ import sportyfy.core.entidades.partido.Partido;
 public class DeterminadorGanador {
     /**
      * Determina el ganador de un partido.
+     * 
      * @param partido El partido.
      * @return El equipo ganador.
      */

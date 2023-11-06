@@ -1,13 +1,11 @@
 package sportyfy.core.servicios.buscadores;
 
-
 import lombok.Data;
 import sportyfy.core.entidades.Pronosticador;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.HashSet;
@@ -36,7 +34,8 @@ public class BuscadorPronosticadores {
         File directorio = new File(ruta);
 
         if (directorio.exists() && directorio.isDirectory()) {
-            for (File archivo : Objects.requireNonNull(directorio.listFiles(file -> file.isFile() && file.getName().endsWith(".jar")))) {
+            for (File archivo : Objects
+                    .requireNonNull(directorio.listFiles(file -> file.isFile() && file.getName().endsWith(".jar")))) {
                 pronosticadores.addAll(obtenerPronosticadoresDesdeJar(archivo));
             }
         } else {
@@ -54,10 +53,11 @@ public class BuscadorPronosticadores {
      */
     private Set<Pronosticador> obtenerPronosticadoresDesdeJar(File archivoJar) throws IOException {
         Set<Pronosticador> pronosticadores = new HashSet<>();
-        URLClassLoader classLoader = URLClassLoader.newInstance(new URL[]{archivoJar.toURI().toURL()});
+        URLClassLoader classLoader = URLClassLoader.newInstance(new URL[] { archivoJar.toURI().toURL() });
 
         try (JarFile archivoJAR = new JarFile(archivoJar)) {
-            for (JarEntry entrada : archivoJAR.stream().filter(e -> e.getName().endsWith(".class")).toArray(JarEntry[]::new)) {
+            for (JarEntry entrada : archivoJAR.stream().filter(e -> e.getName().endsWith(".class"))
+                    .toArray(JarEntry[]::new)) {
                 String nombreClase = entrada.getName().replace('/', '.').substring(0, entrada.getName().length() - 6);
                 try {
                     Class<?> cls = Class.forName(nombreClase, true, classLoader);
@@ -74,7 +74,6 @@ public class BuscadorPronosticadores {
         }
         return pronosticadores;
     }
-
 
     /**
      * Busca un pronosticador en un conjunto de pronosticadores
