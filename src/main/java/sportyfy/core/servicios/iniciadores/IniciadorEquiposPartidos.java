@@ -6,7 +6,6 @@ import sportyfy.core.servicios.parsers.EquiposParser;
 import sportyfy.core.servicios.parsers.PartidosParser;
 
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.List;
 
 /**
@@ -14,7 +13,8 @@ import java.util.List;
  */
 public class IniciadorEquiposPartidos {
     /**
-     * Enumeración que representa los tipos de inicialización que se pueden realizar.
+     * Enumeración que representa los tipos de inicialización que se pueden
+     * realizar.
      */
     public enum TipoInicializacion {
         EQUIPOS,
@@ -24,17 +24,19 @@ public class IniciadorEquiposPartidos {
     /**
      * Inicializa los equipos y los partidos.
      *
-     * @param rutaCarpetaPartidosJugados La ruta de la carpeta que contiene los archivos de partidos.
+     * @param rutaCarpetaPartidosJugados La ruta de la carpeta que contiene los
+     *                                   archivos de partidos.
      * @param tipoInicializacion         El tipo de inicialización.
      * @param equipos                    La lista de equipos.
      * @return Una lista de equipos o de partidos.
      * @throws IOException Si hay un error al leer los archivos.
      */
-    public static List<?> iniciar(String rutaCarpetaPartidosJugados, TipoInicializacion tipoInicializacion, List<Equipo> equipos) throws IOException {
+    public static List<?> iniciar(String rutaCarpetaPartidosJugados, TipoInicializacion tipoInicializacion,
+            List<Equipo> equipos) throws IOException {
         if (tipoInicializacion == TipoInicializacion.EQUIPOS) {
             return new EquiposParser().crearEquiposDesdeArchivos(rutaCarpetaPartidosJugados);
         } else if (tipoInicializacion == TipoInicializacion.PARTIDOS) {
-            return PartidosParser.crearPartidos(Path.of(rutaCarpetaPartidosJugados), new ObjectMapper(), equipos);
+            return PartidosParser.crearPartidos(rutaCarpetaPartidosJugados, new ObjectMapper(), equipos);
         } else {
             throw new IllegalArgumentException("El tipo de inicialización no es válido.");
         }
