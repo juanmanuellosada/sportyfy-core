@@ -34,10 +34,9 @@ public class IniciadorEquiposPartidos {
         if (tipoInicializacion == TipoInicializacion.EQUIPOS) {
             return new EquiposParser().crearEquiposDesdeArchivos(rutaCarpetaPartidosJugados);
         } else if (tipoInicializacion == TipoInicializacion.PARTIDOS) {
-            Path rutaCarpeta = Path.of(rutaCarpetaPartidosJugados);
-            return new PartidosParser(equipos).crearPartidos(rutaCarpeta, new ObjectMapper());
+            return PartidosParser.crearPartidos(Path.of(rutaCarpetaPartidosJugados), new ObjectMapper(), equipos);
         } else {
-            throw new IllegalArgumentException("Tipo de inicialización no válido: " + tipoInicializacion);
+            throw new IllegalArgumentException("El tipo de inicialización no es válido.");
         }
     }
 

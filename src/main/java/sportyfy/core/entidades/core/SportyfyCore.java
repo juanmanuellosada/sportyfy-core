@@ -8,6 +8,7 @@ import sportyfy.core.entidades.partido.Partido;
 import sportyfy.core.servicios.buscadores.BuscadorPronosticadores;
 
 import java.beans.PropertyChangeSupport;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -51,7 +52,7 @@ public class SportyfyCore {
             throw new IllegalArgumentException("No se encontró el pronosticador");
         }
 
-        pronosticador.setPartidos(Set.copyOf(partidos));
+        pronosticador.setPartidos(new HashSet<>(partidos));
         pronosticador.pronosticar(partido);
 
         // Notificar a los observadores
