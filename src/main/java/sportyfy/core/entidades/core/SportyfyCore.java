@@ -37,7 +37,7 @@ public class SportyfyCore {
 
     private Set<Pronosticador> pronosticadores;
     private List<Equipo> equipos;
-    private List<Partido> partidos;
+    private Set<Partido> partidos;
 
     /**
      * Pronostica un partido
