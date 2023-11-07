@@ -11,6 +11,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
