@@ -16,11 +16,9 @@ public class BuscadorEquipos {
      * @param equipos      La lista de equipos.
      * @return El equipo.
      */
-    public static Equipo encontrarEquipoPorNombre(String nombreEquipo, List<Equipo> equipos) {
-        Optional<Equipo> equipo = equipos.stream()
+    public static Optional<Equipo> encontrarEquipoPorNombre(String nombreEquipo, List<Equipo> equipos) {
+        return equipos.stream()
                 .filter(e -> e.getNombre().equals(nombreEquipo))
                 .findFirst();
-
-        return equipo.orElse(null);
     }
 }

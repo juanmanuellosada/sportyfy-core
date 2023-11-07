@@ -10,6 +10,7 @@ import sportyfy.core.servicios.buscadores.BuscadorPronosticadores;
 import java.beans.PropertyChangeSupport;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 /**
@@ -46,17 +47,15 @@ public class SportyfyCore {
      * @throws IllegalArgumentException Si no se encuentra el pronosticador
      */
     public void pronosticar(Partido partido, String nombrePronosticador) {
-        Pronosticador pronosticador = new BuscadorPronosticadores().buscarPronosticador(pronosticadores,
+        Optional<Pronosticador> pronosticadorOpt = new BuscadorPronosticadores().buscarPronosticador(pronosticadores,
                 nombrePronosticador);
-        if (pronosticador == null) {
-            throw new IllegalArgumentException("No se encontró el pronosticador");
-        }
+
+        Pronosticador pronosticador = pronosticadorOpt
+                .orElseThrow(() -> new IllegalArgumentException("No se encontró el pronosticador"));
 
         pronosticador.setPartidos(new HashSet<>(partidos));
         pronosticador.pronosticar(partido);
 
-        // Notificar a los observadores
         support.firePropertyChange("partido", null, partido);
-
     }
 }

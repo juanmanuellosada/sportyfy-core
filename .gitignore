@@ -1,7 +1,6 @@
 # Ignorar archivos y directorios generados por Gradle
 build/
 .gradle/
-.idea/
 
 # Ignorar archivos específicos de IntelliJ IDEA
 *.iml

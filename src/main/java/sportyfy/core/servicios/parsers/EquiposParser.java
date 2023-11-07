@@ -5,6 +5,7 @@ import sportyfy.core.servicios.lectores.LectorJson;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
@@ -26,12 +27,9 @@ public class EquiposParser {
         List<String> nombresArchivos = LectorJson.leerNombresArchivosJsons(rutaCarpetaPartidos);
         return nombresArchivos.stream()
                 .map(this::extraerNombreEquipoDesdeNombreArchivo)
-                .map(nombreEquipo -> {
-                    if (nombreEquipo.isEmpty()) {
-                        throw new IllegalArgumentException("El nombre del equipo está o vacío.");
-                    }
-                    return new Equipo(nombreEquipo);
-                })
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .map(Equipo::new)
                 .collect(Collectors.toList());
     }
 
@@ -41,8 +39,8 @@ public class EquiposParser {
      * @param nombreArchivo El nombre del archivo.
      * @return El nombre del equipo.
      */
-    private String extraerNombreEquipoDesdeNombreArchivo(String nombreArchivo) {
-        String nombreEquipo = nombreArchivo.replaceFirst("^partidos_", "").replaceFirst(".json$", "");
-        return nombreEquipo.replaceAll("_", " ");
+    private Optional<String> extraerNombreEquipoDesdeNombreArchivo(String nombreArchivo) {
+        String nombreEquipo = nombreArchivo.replace(".json", "");
+        return nombreEquipo.isEmpty() ? Optional.empty() : Optional.of(nombreEquipo);
     }
 }

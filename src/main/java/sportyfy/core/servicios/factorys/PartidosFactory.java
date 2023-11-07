@@ -6,6 +6,9 @@ import sportyfy.core.entidades.partido.Partido;
 import sportyfy.core.servicios.buscadores.BuscadorEquipos;
 
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Optional;
 
 /**
  * Clase que se encarga de crear los partidos a partir de los archivos de
@@ -19,23 +22,18 @@ public class PartidosFactory {
      * @param equipos    La lista de equipos.
      * @return Un partido.
      */
-    public static Partido crearPartido(PartidoDTO partidoDTO, List<Equipo> equipos) {
-        String nombreLocal = partidoDTO.getPartido().getMarcadorPorEquipo().keySet().stream().findFirst().orElse(null);
-        String nombreVisitante = partidoDTO.getPartido().getMarcadorPorEquipo().keySet().stream().skip(1).findFirst()
-                .orElse(null);
+    public static Optional<Partido> crearPartido(PartidoDTO partidoDTO, List<Equipo> equipos) {
+        Map<String, Integer> marcadorPorEquipo = partidoDTO.getPartido().getMarcadorPorEquipo();
+        List<String> nombresEquipos = new ArrayList<>(marcadorPorEquipo.keySet());
 
-        Equipo equipoLocal = BuscadorEquipos.encontrarEquipoPorNombre(nombreLocal, equipos);
-        Equipo equipoVisitante = BuscadorEquipos.encontrarEquipoPorNombre(nombreVisitante, equipos);
+        Equipo equipoLocal = BuscadorEquipos.encontrarEquipoPorNombre(nombresEquipos.get(0), equipos)
+                .orElseThrow(() -> new IllegalArgumentException("No se encontró el equipo local"));
+        Equipo equipoVisitante = BuscadorEquipos.encontrarEquipoPorNombre(nombresEquipos.get(1), equipos)
+                .orElseThrow(() -> new IllegalArgumentException("No se encontró el equipo visitante"));
 
-        if (equipoLocal != null && equipoVisitante != null) {
-            Partido partido = new Partido();
-            partido.setLocal(equipoLocal);
-            partido.setVisitante(equipoVisitante);
-            partido.setMarcadorLocal(partidoDTO.getPartido().getMarcadorPorEquipo().get(nombreLocal));
-            partido.setMarcadorVisitante(partidoDTO.getPartido().getMarcadorPorEquipo().get(nombreVisitante));
-            return partido;
-        }
+        Partido partido = new Partido(equipoLocal, equipoVisitante, marcadorPorEquipo.get(nombresEquipos.get(0)),
+                marcadorPorEquipo.get(nombresEquipos.get(1)));
 
-        return null;
+        return Optional.of(partido);
     }
 }

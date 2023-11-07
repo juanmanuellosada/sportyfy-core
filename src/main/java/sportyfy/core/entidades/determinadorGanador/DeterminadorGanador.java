@@ -17,8 +17,10 @@ public class DeterminadorGanador {
      * @return El equipo ganador.
      */
     public Optional<Equipo> determinarGanador(Partido partido) {
-        return partido.tieneMarcadores() && !Objects.equals(partido.getMarcadorLocal(), partido.getMarcadorVisitante())
-                ? Optional.of(partido.getMarcadorLocal() > partido.getMarcadorVisitante() ? partido.getLocal() : partido.getVisitante())
-                : Optional.empty();
+        if (partido.tieneMarcadores() && !Objects.equals(partido.getMarcadorLocal(), partido.getMarcadorVisitante())) {
+            return partido.getMarcadorLocal() > partido.getMarcadorVisitante() ? partido.getLocal()
+                    : partido.getVisitante();
+        }
+        return Optional.empty();
     }
 }

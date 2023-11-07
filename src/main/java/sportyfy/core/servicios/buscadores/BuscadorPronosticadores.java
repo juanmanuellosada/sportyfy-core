@@ -10,6 +10,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.HashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
@@ -82,10 +83,9 @@ public class BuscadorPronosticadores {
      * @param nombre          Nombre del pronosticador
      * @return Pronosticador encontrado o null
      */
-    public Pronosticador buscarPronosticador(Set<Pronosticador> pronosticadores, String nombre) {
+    public Optional<Pronosticador> buscarPronosticador(Set<Pronosticador> pronosticadores, String nombre) {
         return pronosticadores.stream()
                 .filter(p -> p.getClass().getSimpleName().equals(nombre))
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 }

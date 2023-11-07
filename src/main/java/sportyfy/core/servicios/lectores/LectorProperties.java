@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.logging.Logger;
+import java.util.Optional;
 
 /**
  * Clase que se encarga de leer archivos de propiedades.
@@ -15,30 +16,20 @@ public class LectorProperties {
     /**
      * Lee un archivo de propiedades y devuelve el valor de una propiedad.
      *
-     * @param propertie   La propiedad que se quiere leer.
+     * @param property   La propiedad que se quiere leer.
      * @param rutaArchivo La ruta del archivo de propiedades.
      * @return El valor de la propiedad.
      */
-    public static String leerProperties(String propertie, String rutaArchivo) {
+    public static Optional<String> leerProperties(String property, String rutaArchivo) {
         Properties prop = new Properties();
-        FileInputStream input = null;
 
-        try {
-            input = new FileInputStream(rutaArchivo);
+        try (FileInputStream input = new FileInputStream(rutaArchivo)) {
             prop.load(input);
+            return Optional.ofNullable(prop.getProperty(property));
         } catch (IOException e) {
             logger.severe("Error al leer el archivo de propiedades: " + e.getMessage());
-        } finally {
-            if (input != null) {
-                try {
-                    input.close();
-                } catch (IOException e) {
-                    logger.warning("No se pudo cerrar el archivo de propiedades: " + e.getMessage());
-                }
-            }
+            return Optional.empty();
         }
-
-        return prop.getProperty(propertie);
     }
 
 }

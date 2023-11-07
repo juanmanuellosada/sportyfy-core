@@ -9,19 +9,19 @@ import java.util.Set;
  */
 public interface Pronosticador {
 
-    public void setPartidos(Set<Partido> partidos);
+    void setPartidos(Set<Partido> partidos);
 
     /**
      * Pronostica un partido.
      *
      * @param partido El partido.
      */
-    public void pronosticar(Partido partido);
+    void pronosticar(Partido partido);
 
     /**
      * Devuelve el deporte del pronosticador.
      *
      * @return El deporte del pronosticador.
      */
-    public String getDeporte();
+    String getDeporte();
 }

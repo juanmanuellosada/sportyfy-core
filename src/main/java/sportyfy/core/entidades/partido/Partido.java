@@ -22,6 +22,19 @@ public class Partido {
     private Resultado resultado = new Resultado();
 
     /**
+     * Constructor de la clase Partido.
+     * 
+     * @param local             Equipo local del partido.
+     * @param visitante         Equipo visitante del partido.
+     * @param marcadorLocal     Marcador del equipo local.
+     * @param marcadorVisitante Marcador del equipo visitante.
+     */
+    public Partido(Equipo local, Equipo visitante, int marcadorLocal, int marcadorVisitante) {
+        resultado.getMarcadorPorEquipo().put(local, marcadorLocal);
+        resultado.getMarcadorPorEquipo().put(visitante, marcadorVisitante);
+    }
+
+    /**
      * Método que devuelve el equipo en la posición index del partido.
      *
      * @param index Posición del equipo en el partido.
@@ -30,12 +43,10 @@ public class Partido {
      *                                  de equipos o contiene equipos nulos.
      * @see Equipo
      */
-    private Equipo getEquipo(int index) {
+    private Optional<Equipo> getEquipo(int index) {
         return resultado.getMarcadorPorEquipo().keySet().stream()
                 .skip(index)
-                .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException(
-                        "El partido no tiene la cantidad adecuada de equipos o contiene equipos nulos"));
+                .findFirst();
     }
 
     /**
@@ -44,7 +55,7 @@ public class Partido {
      * @return Equipo local del partido.
      * @see Equipo
      */
-    public Equipo getLocal() {
+    public Optional<Equipo> getLocal() {
         return getEquipo(0);
     }
 
@@ -54,7 +65,7 @@ public class Partido {
      * @return Equipo visitante del partido.
      * @see Equipo
      */
-    public Equipo getVisitante() {
+    public Optional<Equipo> getVisitante() {
         return getEquipo(1);
     }
 
@@ -65,17 +76,15 @@ public class Partido {
      * @return true si el partido tiene marcadores, false en caso contrario.
      */
     public boolean tieneMarcadores() {
-        return Objects.nonNull(resultado.getMarcador(getLocal()))
-                && Objects.nonNull(resultado.getMarcador(getVisitante()));
+        return getLocal().isPresent() && getVisitante().isPresent() &&
+                Objects.nonNull(resultado.getMarcadorPorEquipo().get(getLocal().get())) &&
+                Objects.nonNull(resultado.getMarcadorPorEquipo().get(getVisitante().get()));
     }
 
     /**
      * Método que devuelve el ganador del partido.
      * 
-     * @return Equipo ganador del partido.
-     * @throws IllegalArgumentException si el partido no tiene la cantidad adecuada
-     *                                  de equipos o contiene equipos nulos.
-     * @see Equipo
+     * @return El ganador del partido.
      */
     public Optional<Equipo> getGanador() {
         return new DeterminadorGanador().determinarGanador(this);
@@ -96,7 +105,7 @@ public class Partido {
      * @return Marcador del equipo local.
      */
     public Integer getMarcadorLocal() {
-        return resultado.getMarcador(getLocal());
+        return resultado.getMarcador(getLocal().orElse(null));
     }
 
     /**
@@ -105,7 +114,7 @@ public class Partido {
      * @return Marcador del equipo visitante.
      */
     public Integer getMarcadorVisitante() {
-        return resultado.getMarcador(getVisitante());
+        return resultado.getMarcador(getVisitante().orElse(null));
     }
 
     /**
@@ -132,7 +141,7 @@ public class Partido {
      * @param marcador Marcador del equipo local.
      */
     public void setMarcadorLocal(Integer marcador) {
-        resultado.getMarcadorPorEquipo().put(getLocal(), marcador);
+        resultado.getMarcadorPorEquipo().put(getLocal().orElse(null), marcador);
     }
 
     /**
@@ -141,6 +150,6 @@ public class Partido {
      * @param marcador Marcador del equipo visitante.
      */
     public void setMarcadorVisitante(Integer marcador) {
-        resultado.getMarcadorPorEquipo().put(getVisitante(), marcador);
+        resultado.getMarcadorPorEquipo().put(getVisitante().orElse(null), marcador);
     }
 }

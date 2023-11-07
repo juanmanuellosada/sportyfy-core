@@ -8,6 +8,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -24,13 +26,15 @@ public class LectorJson {
      * @param rutaArchivo Ruta del archivo que contiene los partidos.
      * @return Lista de partidos.
      */
-    public static List<PartidoDTO> leerPartidos(String rutaArchivo, ObjectMapper objectMapper) {
+    public static Optional<List<PartidoDTO>> leerPartidos(String rutaArchivo, ObjectMapper objectMapper) {
         try {
-            return objectMapper.readValue(new File(rutaArchivo), new TypeReference<List<PartidoDTO>>() {
-            });
+            List<PartidoDTO> partidos = objectMapper.readValue(new File(rutaArchivo),
+                    new TypeReference<List<PartidoDTO>>() {
+                    });
+            return Optional.of(partidos);
         } catch (IOException e) {
             logger.severe("Error al leer el archivo " + rutaArchivo + ": " + e.getMessage());
-            return null;
+            return Optional.empty();
         }
     }
 
@@ -42,7 +46,7 @@ public class LectorJson {
      * @return Una lista de nombres de archivos JSON.
      */
     public static List<String> leerNombresArchivosJsons(String rutaCarpeta) {
-        return Arrays.stream(new File(rutaCarpeta).listFiles((dir, name) -> name.toLowerCase().endsWith(".json")))
+        return Arrays.stream(Objects.requireNonNull(new File(rutaCarpeta).listFiles((dir, name) -> name.toLowerCase().endsWith(".json"))))
                 .map(File::getName)
                 .collect(Collectors.toList());
     }
