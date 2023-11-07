@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abc55aaa-f2ca-4d51-9c9b-1eb14f7f7ffd" name="Changes" comment="" />
+    <list default="true" id="abc55aaa-f2ca-4d51-9c9b-1eb14f7f7ffd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/equipos/equipos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/equipos/equipos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_1064.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_1064.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_1065.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_1065.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_2432.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_2432.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_434.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_434.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_435.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_435.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_436.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_436.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_437.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_437.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_438.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_438.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_439.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_439.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_440.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_440.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_441.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_441.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_442.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_442.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_445.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_445.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_446.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_446.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_448.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_448.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_449.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_449.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_450.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_450.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_451.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_451.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_452.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_452.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_453.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_453.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_455.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_455.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_456.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_456.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_457.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_457.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_458.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_458.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_459.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_459.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_460.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_460.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_474.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_474.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_478.json" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-core-v1/partidos/ultimos_resultados_478.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sportyfy/core/UserStory1Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sportyfy/core/UserStory1Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +53,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/../sportyfy-pronosticador-futbol">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../sporty-pronosticador-futbol">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../sportyfy-pronosticador-futbol">
           <activation />
         </task>
         <projects_view>
@@ -38,6 +92,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,10 +117,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/juanmanuellosada/Documentos/Universidad Nacional General Sarmiento/Proyecto Profesional II/Sportyfy/sportyfy-core",
-    "project.structure.last.edited": "Project",
+    "git-widget-placeholder": "marce",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/programas detrabajo/intellij proyecto PP2/sportyfy-pronosticador-futbol",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.433832",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -68,59 +136,11 @@
       <recent name="sportyfy.core.utilidades" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.sportyfy-core [test]">
-    <configuration name="TestVerdadero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.sportyfy-pronosticador-futbol [build]">
+    <configuration name="D:/programas detrabajo/intellij proyecto PP2/sporty-pronosticador-futbol [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sportyfy.core.TestVerdadero&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestVerdadero.ca1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sportyfy.core.TestVerdadero.ca1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="sportyfy-core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sporty-pronosticador-futbol" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -139,10 +159,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="sportyfy-core [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="D:/programas detrabajo/intellij proyecto PP2/sporty-pronosticador-futbol [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sporty-pronosticador-futbol" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -161,10 +181,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="sportyfy-core [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sportyfy-pronosticador-futbol [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -172,7 +192,51 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="sportyfy-pronosticador-futbol [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="sportyfy-pronosticador-futbol-v1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.sportyfy-core [test]" />
-        <item itemvalue="Gradle.sportyfy-core [build]" />
-        <item itemvalue="Gradle.sportyfy-core [clean]" />
-        <item itemvalue="Gradle.TestVerdadero" />
-        <item itemvalue="Gradle.TestVerdadero.ca1" />
+        <item itemvalue="Gradle.sportyfy-pronosticador-futbol [build]" />
+        <item itemvalue="Gradle.sportyfy-pronosticador-futbol [clean]" />
+        <item itemvalue="Gradle.sportyfy-pronosticador-futbol-v1 [build]" />
+        <item itemvalue="Gradle.D:/programas detrabajo/intellij proyecto PP2/sporty-pronosticador-futbol [build]" />
+        <item itemvalue="Gradle.D:/programas detrabajo/intellij proyecto PP2/sporty-pronosticador-futbol [clean]" />
       </list>
     </recent_temporary>
   </component>

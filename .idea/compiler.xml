@@ -11,6 +11,9 @@
         <module name="sportyfy-core.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="org.example.sportyfy-pronosticador-futbol-2.main" target="11" />
+      <module name="org.example.sportyfy-pronosticador-futbol-2.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
