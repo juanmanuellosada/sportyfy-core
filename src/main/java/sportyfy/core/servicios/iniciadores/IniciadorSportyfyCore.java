@@ -37,7 +37,7 @@ public class IniciadorSportyfyCore {
                                 IniciadorEquiposPartidos.TipoInicializacion.EQUIPOS, null)
                                 .orElseThrow(() -> new IOException("No se pudo inicializar los equipos"));
 
-                List<Partido> partidos = (List<Partido>) IniciadorEquiposPartidos.iniciar(rutaCarpeta,
+                Set<Partido> partidos = (Set<Partido>) IniciadorEquiposPartidos.iniciar(rutaCarpeta,
                                 IniciadorEquiposPartidos.TipoInicializacion.PARTIDOS, equipos)
                                 .orElseThrow(() -> new IOException("No se pudo inicializar los partidos"));
 

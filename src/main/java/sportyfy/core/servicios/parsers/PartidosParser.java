@@ -28,10 +28,10 @@ public class PartidosParser {
          * @param rutaCarpeta  La ruta de la carpeta que contiene los archivos JSON de
          *                     partidos.
          * @param objectMapper El ObjectMapper.
-         * @return Una lista de partidos.
+         * @return Un set de partidos.
          * @throws IOException Si hay un error al leer los archivos.
          */
-        public static List<Partido> crearPartidos(String rutaCarpeta, ObjectMapper objectMapper, List<Equipo> equipos)
+        public static Set<Partido> crearPartidos(String rutaCarpeta, ObjectMapper objectMapper, List<Equipo> equipos)
                         throws IOException {
                 File directorio = new File(rutaCarpeta);
                 File[] archivos = directorio.listFiles((dir, name) -> name.toLowerCase().endsWith(".json"));
