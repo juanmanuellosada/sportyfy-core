@@ -87,7 +87,7 @@ public class Partido {
      * @return true si el partido es un empate, false en caso contrario.
      */
     public boolean esEmpate() {
-        return !getGanador().isPresent();
+        return getGanador().isEmpty();
     }
 
     /**

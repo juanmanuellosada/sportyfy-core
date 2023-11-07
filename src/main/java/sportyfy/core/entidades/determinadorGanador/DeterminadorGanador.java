@@ -1,5 +1,6 @@
 package sportyfy.core.entidades.determinadorGanador;
 
+import java.util.Objects;
 import java.util.Optional;
 
 import sportyfy.core.entidades.equipo.Equipo;
@@ -16,13 +17,8 @@ public class DeterminadorGanador {
      * @return El equipo ganador.
      */
     public Optional<Equipo> determinarGanador(Partido partido) {
-        if (partido.tieneMarcadores()) {
-            int marcadorLocal = partido.getMarcadorLocal();
-            int marcadorVisitante = partido.getMarcadorVisitante();
-
-            return Optional.ofNullable(marcadorLocal == marcadorVisitante ? null
-                    : (marcadorLocal > marcadorVisitante ? partido.getLocal() : partido.getVisitante()));
-        }
-        return Optional.empty();
+        return partido.tieneMarcadores() && !Objects.equals(partido.getMarcadorLocal(), partido.getMarcadorVisitante())
+                ? Optional.of(partido.getMarcadorLocal() > partido.getMarcadorVisitante() ? partido.getLocal() : partido.getVisitante())
+                : Optional.empty();
     }
 }
