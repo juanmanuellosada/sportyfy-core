@@ -4,11 +4,13 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
 
+import lombok.AllArgsConstructor;
 import sportyfy.core.entidades.equipo.Equipo;
 
 /**
  * Entidad que representa un resultado en el sistema.
  */
+@AllArgsConstructor
 public class Resultado {
 
     /**
