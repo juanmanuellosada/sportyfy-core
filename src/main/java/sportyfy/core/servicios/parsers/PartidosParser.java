@@ -47,7 +47,7 @@ public class PartidosParser {
                                                 .filter(Optional::isPresent)
                                                 .map(Optional::get)
                                                 .flatMap(Collection::stream)
-                                                .map(partidoDTO -> PartidosFactory.crearPartido(partidoDTO, equipos))
+                                                .map(PartidosFactory::crearPartido)
                                                 .collect(Collectors.toSet())
                                 : Collections.emptySet();
         }

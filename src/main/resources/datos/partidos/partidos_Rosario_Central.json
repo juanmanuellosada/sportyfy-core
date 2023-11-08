@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Belgrano Cordoba": 0
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Belgrano Cordoba": 0
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 3,
-                "River Plate": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Rosario Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 2,
-                "Central Cordoba de Santiago": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Estudiantes L.P.": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "San Lorenzo": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Colon Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Barracas Central": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 4,
-                "Instituto Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Banfield": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 1,
-                "Rosario Central": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Velez Sarsfield": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 4,
-                "Platense": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Talleres Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 2,
-                "Rosario Central": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 2,
-                "Atletico Tucuman": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 0,
-                "Rosario Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Newells Old Boys": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 1,
-                "Rosario Central": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 2,
-                "Huracan": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Union Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 4,
-                "Rosario Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Godoy Cruz": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Lanus": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 2,
-                "Arsenal Sarandi": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Tigre": 2,
-                "Rosario Central": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Argentinos JRS": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 3,
+          "River Plate": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Rosario Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 2,
+          "Central Cordoba de Santiago": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Estudiantes L.P.": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "San Lorenzo": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Colon Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Colon Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Barracas Central": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 4,
+          "Instituto Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Banfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Banfield": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 1,
+          "Rosario Central": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Velez Sarsfield": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 4,
+          "Platense": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Talleres Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 2,
+          "Rosario Central": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 2,
+          "Atletico Tucuman": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 0,
+          "Rosario Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Newells Old Boys": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 1,
+          "Rosario Central": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 2,
+          "Huracan": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Union Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 4,
+          "Rosario Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Godoy Cruz": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Lanus": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 2,
+          "Arsenal Sarandi": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Tigre"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Tigre": 2,
+          "Rosario Central": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Argentinos JRS": 0
+        }
+      }
+    }
+  }
 ]

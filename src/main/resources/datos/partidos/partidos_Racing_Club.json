@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "River Plate": 2
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "River Plate": 2
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 3,
-                "Central Cordoba de Santiago": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Rosario Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Estudiantes L.P.": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "San Lorenzo": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 4,
-                "Colon Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Barracas Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Velez Sarsfield": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Instituto Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Banfield": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 1,
-                "Racing Club": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Platense": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Talleres Cordoba": 4
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 3,
-                "Racing Club": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Atletico Tucuman": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 1,
-                "Racing Club": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Newells Old Boys": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 3,
-                "Racing Club": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Huracan": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 3,
-                "Union Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Godoy Cruz": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Lanus": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 3,
-                "Arsenal Sarandi": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 2,
-                "Tigre": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Argentinos JRS": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Belgrano Cordoba": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 3,
+          "Central Cordoba de Santiago": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Rosario Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Estudiantes L.P.": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "San Lorenzo": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Colon Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 4,
+          "Colon Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Barracas Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Velez Sarsfield": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Instituto Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Banfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Banfield": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Racing Club"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 1,
+          "Racing Club": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Platense": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Talleres Cordoba": 4
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Racing Club"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 3,
+          "Racing Club": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Atletico Tucuman": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Racing Club"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 1,
+          "Racing Club": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Newells Old Boys": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Racing Club"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 3,
+          "Racing Club": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Huracan": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 3,
+          "Union Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Godoy Cruz": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Lanus": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 3,
+          "Arsenal Sarandi": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Tigre"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 2,
+          "Tigre": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Argentinos JRS": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  }
 ]

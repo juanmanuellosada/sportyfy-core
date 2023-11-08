@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Banfield": 0
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Banfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Banfield": 0
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 3,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Velez Sarsfield": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Platense": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Talleres Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 2,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 4,
-                "Atletico Tucuman": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 2,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Newells Old Boys": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 0,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Huracan": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 2,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Central Cordoba de Santiago": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Godoy Cruz": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Lanus": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Arsenal Sarandi": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Tigre": 1,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 2,
-                "Argentinos JRS": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "River Plate": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Sarmiento Junin": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 4,
-                "Rosario Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 1,
-                "Estudiantes L.P.": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "San Lorenzo": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 2,
-                "Colon Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 3,
-                "Barracas Central": 5
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Instituto Cordoba": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 3,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Velez Sarsfield": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Platense": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Talleres Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 2,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 4,
+          "Atletico Tucuman": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 2,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Newells Old Boys": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 0,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Huracan": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 2,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Central Cordoba de Santiago": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Godoy Cruz": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Lanus": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Arsenal Sarandi": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Tigre"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Tigre": 1,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 2,
+          "Argentinos JRS": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "River Plate": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Sarmiento Junin"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Sarmiento Junin": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Rosario Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 4,
+          "Rosario Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 1,
+          "Estudiantes L.P.": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "San Lorenzo": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Colon Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 2,
+          "Colon Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 3,
+          "Barracas Central": 5
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Instituto Cordoba": 0
+        }
+      }
+    }
+  }
 ]

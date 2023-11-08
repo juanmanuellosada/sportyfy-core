@@ -41,7 +41,7 @@ public class EquiposParser {
      * @return El nombre del equipo.
      */
     private Optional<String> extraerNombreEquipoDesdeNombreArchivo(String nombreArchivo) {
-        String nombreEquipo = nombreArchivo.replace(".json", "");
+        String nombreEquipo = nombreArchivo.replace("partidos_", "").replace(".json", "").replace("_", " ");
         return nombreEquipo.isEmpty() ? Optional.empty() : Optional.of(nombreEquipo);
     }
 }

@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 0,
-                "Belgrano Cordoba": 0
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 0,
+          "Belgrano Cordoba": 0
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "Estudiantes L.P.": 4
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "San Lorenzo": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Colon Santa Fe": 0,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "Barracas Central": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Banfield": 1,
-                "Belgrano Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 2,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 2,
-                "Velez Sarsfield": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "Platense": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 1,
-                "Talleres Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 2,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 1,
-                "Atletico Tucuman": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 2,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 1,
-                "Newells Old Boys": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 0,
-                "Belgrano Cordoba": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 2,
-                "Huracan": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Belgrano Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 1,
-                "Godoy Cruz": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "Lanus": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Arsenal Sarandi": 0,
-                "Belgrano Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Tigre": 2,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 0,
-                "Argentinos JRS": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 1,
-                "Central Cordoba de Santiago": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Belgrano Cordoba": 2,
-                "River Plate": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 0,
-                "Belgrano Cordoba": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "Estudiantes L.P.": 4
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "San Lorenzo": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Colon Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Colon Santa Fe": 0,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "Barracas Central": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Banfield"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Banfield": 1,
+          "Belgrano Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 2,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 2,
+          "Velez Sarsfield": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "Platense": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 1,
+          "Talleres Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 2,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 1,
+          "Atletico Tucuman": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 2,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 1,
+          "Newells Old Boys": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 0,
+          "Belgrano Cordoba": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 2,
+          "Huracan": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Belgrano Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 1,
+          "Godoy Cruz": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "Lanus": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Arsenal Sarandi": 0,
+          "Belgrano Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Tigre"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Tigre": 2,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 0,
+          "Argentinos JRS": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 1,
+          "Central Cordoba de Santiago": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Belgrano Cordoba": 2,
+          "River Plate": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 0,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  }
 ]

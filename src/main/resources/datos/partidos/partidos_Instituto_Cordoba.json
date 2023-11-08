@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 2,
-                "Godoy Cruz": 4
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 2,
+          "Godoy Cruz": 4
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 2,
-                "Lanus": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Arsenal Sarandi": 0,
-                "Instituto Cordoba": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Tigre": 1,
-                "Instituto Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Argentinos JRS": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Belgrano Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "River Plate": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 1,
-                "Instituto Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 4,
-                "Instituto Cordoba": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Estudiantes L.P.": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "San Lorenzo": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Colon Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Barracas Central": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Central Cordoba de Santiago": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Banfield": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 1,
-                "Instituto Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Velez Sarsfield": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Platense": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Talleres Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 2,
-                "Instituto Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 1,
-                "Atletico Tucuman": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 2,
-                "Instituto Cordoba": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 3,
-                "Newells Old Boys": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 2,
-                "Instituto Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 0,
-                "Huracan": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 2,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 0,
-                "Instituto Cordoba": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 2,
+          "Lanus": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Arsenal Sarandi": 0,
+          "Instituto Cordoba": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Tigre"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Tigre": 1,
+          "Instituto Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Argentinos JRS": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Belgrano Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "River Plate": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 1,
+          "Instituto Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 4,
+          "Instituto Cordoba": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Estudiantes L.P.": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "San Lorenzo": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Colon Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Colon Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Barracas Central": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Central Cordoba de Santiago": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Banfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Banfield": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 1,
+          "Instituto Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Velez Sarsfield": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Platense": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Talleres Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 2,
+          "Instituto Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 1,
+          "Atletico Tucuman": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 2,
+          "Instituto Cordoba": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 3,
+          "Newells Old Boys": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 2,
+          "Instituto Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 0,
+          "Huracan": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 2,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Instituto Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 0,
+          "Instituto Cordoba": 0
+        }
+      }
+    }
+  }
 ]

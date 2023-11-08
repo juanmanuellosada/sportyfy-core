@@ -1,10 +1,12 @@
 package sportyfy.core.DTOs;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Map;
 
-@Data
+@Getter
+@Setter
 public class ResultadoDTO {
     private Map<String, Integer> marcadorPorEquipo;
 }

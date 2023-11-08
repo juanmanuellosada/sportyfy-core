@@ -1,8 +1,12 @@
 package sportyfy.core.DTOs;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class PartidoDTO {
-    private ResultadoDTO partido;
+    private EquipoDTO local;
+    private EquipoDTO visitante;
+    private ResultadoDTO resultado;
 }

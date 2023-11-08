@@ -1,217 +1,434 @@
-[{
-        "partido": {
-            "marcadorPorEquipo": {
-                "Defensa Y Justicia": 0,
-                "Union Santa Fe": 2
-            }
+[
+  {
+    "partido": {
+      "local": {
+        "nombre": "Defensa Y Justicia"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Defensa Y Justicia": 0,
+          "Union Santa Fe": 2
         }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Velez Sarsfield": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Platense": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Talleres Cordoba": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Boca Juniors": 0,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Atletico Tucuman": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Independiente": 0,
-                "Union Santa Fe": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Lanus": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Newells Old Boys": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Gimnasia L.P.": 0,
-                "Union Santa Fe": 2
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Huracan": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Central Cordoba de Santiago": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Sarmiento Junin": 2,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Godoy Cruz": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Arsenal Sarandi": 2,
-                "Union Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Tigre": 0,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Argentinos JRS": 5
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "Belgrano Cordoba": 3
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "River Plate": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Racing Club": 3,
-                "Union Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Rosario Central": 1,
-                "Union Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 2,
-                "Estudiantes L.P.": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 0,
-                "San Lorenzo": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Colon Santa Fe": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Union Santa Fe": 1,
-                "Barracas Central": 1
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Instituto Cordoba": 2,
-                "Union Santa Fe": 0
-            }
-        }
-    },
-    {
-        "partido": {
-            "marcadorPorEquipo": {
-                "Banfield": 0,
-                "Union Santa Fe": 0
-            }
-        }
+      }
     }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Velez Sarsfield"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Velez Sarsfield": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Platense"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Platense": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Talleres Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Talleres Cordoba": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Boca Juniors"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Boca Juniors": 0,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Atletico Tucuman"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Atletico Tucuman": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Independiente"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Independiente": 0,
+          "Union Santa Fe": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Lanus"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Lanus": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Newells Old Boys"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Newells Old Boys": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Gimnasia L.P."
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Gimnasia L.P.": 0,
+          "Union Santa Fe": 2
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Huracan"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Huracan": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Central Cordoba de Santiago"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Central Cordoba de Santiago": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Sarmiento Junin"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Sarmiento Junin": 2,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Godoy Cruz"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Godoy Cruz": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Arsenal Sarandi"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Arsenal Sarandi": 2,
+          "Union Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Tigre"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Tigre": 0,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Argentinos JRS"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Argentinos JRS": 5
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Belgrano Cordoba"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "Belgrano Cordoba": 3
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "River Plate"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "River Plate": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Racing Club"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Racing Club": 3,
+          "Union Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Rosario Central"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Rosario Central": 1,
+          "Union Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Estudiantes L.P."
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 2,
+          "Estudiantes L.P.": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "San Lorenzo"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 0,
+          "San Lorenzo": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Colon Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Colon Santa Fe": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Union Santa Fe"
+      },
+      "visitante": {
+        "nombre": "Barracas Central"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Union Santa Fe": 1,
+          "Barracas Central": 1
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Instituto Cordoba"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Instituto Cordoba": 2,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  },
+  {
+    "partido": {
+      "local": {
+        "nombre": "Banfield"
+      },
+      "visitante": {
+        "nombre": "Union Santa Fe"
+      },
+      "resultado": {
+        "marcadorPorEquipo": {
+          "Banfield": 0,
+          "Union Santa Fe": 0
+        }
+      }
+    }
+  }
 ]
