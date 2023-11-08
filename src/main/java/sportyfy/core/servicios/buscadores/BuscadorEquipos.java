@@ -2,7 +2,7 @@ package sportyfy.core.servicios.buscadores;
 
 import sportyfy.core.entidades.equipo.Equipo;
 
-import java.util.List;
+import java.util.Set;
 import java.util.Optional;
 
 /**
@@ -16,7 +16,7 @@ public class BuscadorEquipos {
      * @param equipos      La lista de equipos.
      * @return El equipo.
      */
-    public static Optional<Equipo> encontrarEquipoPorNombre(String nombreEquipo, List<Equipo> equipos) {
+    public static Optional<Equipo> encontrarEquipoPorNombre(String nombreEquipo, Set<Equipo> equipos) {
         return equipos.stream()
                 .filter(e -> e.getNombre().equals(nombreEquipo))
                 .findFirst();

@@ -6,7 +6,7 @@ import sportyfy.core.servicios.parsers.EquiposParser;
 import sportyfy.core.servicios.parsers.PartidosParser;
 
 import java.io.IOException;
-import java.util.List;
+import java.util.Set;
 import java.util.Optional;
 
 /**
@@ -32,8 +32,8 @@ public class IniciadorEquiposPartidos {
      * @return Una lista de equipos o de partidos.
      * @throws IOException Si hay un error al leer los archivos.
      */
-    public static Optional<List<?>> iniciar(String rutaCarpetaPartidosJugados, TipoInicializacion tipoInicializacion,
-            List<Equipo> equipos) throws IOException {
+    public static Optional<Set<?>> iniciar(String rutaCarpetaPartidosJugados, TipoInicializacion tipoInicializacion,
+            Set<Equipo> equipos) throws IOException {
         if (tipoInicializacion == TipoInicializacion.EQUIPOS) {
             return Optional.ofNullable(new EquiposParser().crearEquiposDesdeArchivos(rutaCarpetaPartidosJugados));
         } else if (tipoInicializacion == TipoInicializacion.PARTIDOS) {

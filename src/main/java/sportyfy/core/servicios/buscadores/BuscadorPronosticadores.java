@@ -12,7 +12,6 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
-import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.logging.Logger;
 
@@ -57,8 +56,7 @@ public class BuscadorPronosticadores {
         URLClassLoader classLoader = URLClassLoader.newInstance(new URL[] { archivoJar.toURI().toURL() });
 
         try (JarFile archivoJAR = new JarFile(archivoJar)) {
-            for (JarEntry entrada : archivoJAR.stream().filter(e -> e.getName().endsWith(".class"))
-                    .toArray(JarEntry[]::new)) {
+            archivoJAR.stream().filter(e -> e.getName().endsWith(".class")).forEach(entrada -> {
                 String nombreClase = entrada.getName().replace('/', '.').substring(0, entrada.getName().length() - 6);
                 try {
                     Class<?> cls = Class.forName(nombreClase, true, classLoader);
@@ -68,10 +66,7 @@ public class BuscadorPronosticadores {
                 } catch (Exception e) {
                     logger.severe("Error al cargar la clase: " + nombreClase);
                 }
-            }
-        } catch (IOException e) {
-            logger.severe("Error al abrir el archivo " + archivoJar.getName());
-            throw e;
+            });
         }
         return pronosticadores;
     }

@@ -4,6 +4,7 @@ import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.servicios.lectores.LectorJson;
 
 import java.io.IOException;
+import java.util.Set;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -18,19 +19,19 @@ public class EquiposParser {
      *
      * @param rutaCarpetaPartidos La ruta de la carpeta que contiene los archivos de
      *                            partidos.
-     * @return Una lista de equipos.
+     * @return Un set de equipos.
      * @throws IOException              Si hay un error al leer los archivos.
      * @throws IllegalArgumentException Si el nombre del equipo es demasiado corto o
      *                                  vacío.
      */
-    public List<Equipo> crearEquiposDesdeArchivos(String rutaCarpetaPartidos) throws IOException {
+    public Set<Equipo> crearEquiposDesdeArchivos(String rutaCarpetaPartidos) throws IOException {
         List<String> nombresArchivos = LectorJson.leerNombresArchivosJsons(rutaCarpetaPartidos);
         return nombresArchivos.stream()
                 .map(this::extraerNombreEquipoDesdeNombreArchivo)
                 .filter(Optional::isPresent)
                 .map(Optional::get)
                 .map(Equipo::new)
-                .collect(Collectors.toList());
+                .collect(Collectors.toSet());
     }
 
     /**

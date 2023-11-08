@@ -28,10 +28,8 @@ public class LectorJson {
      */
     public static Optional<List<PartidoDTO>> leerPartidos(String rutaArchivo, ObjectMapper objectMapper) {
         try {
-            List<PartidoDTO> partidos = objectMapper.readValue(new File(rutaArchivo),
-                    new TypeReference<List<PartidoDTO>>() {
-                    });
-            return Optional.of(partidos);
+            return Optional.of(objectMapper.readValue(new File(rutaArchivo), new TypeReference<List<PartidoDTO>>() {
+            }));
         } catch (IOException e) {
             logger.severe("Error al leer el archivo " + rutaArchivo + ": " + e.getMessage());
             return Optional.empty();
@@ -46,7 +44,9 @@ public class LectorJson {
      * @return Una lista de nombres de archivos JSON.
      */
     public static List<String> leerNombresArchivosJsons(String rutaCarpeta) {
-        return Arrays.stream(Objects.requireNonNull(new File(rutaCarpeta).listFiles((dir, name) -> name.toLowerCase().endsWith(".json"))))
+        return Arrays
+                .stream(Objects.requireNonNull(
+                        new File(rutaCarpeta).listFiles((dir, name) -> name.toLowerCase().endsWith(".json"))))
                 .map(File::getName)
                 .collect(Collectors.toList());
     }

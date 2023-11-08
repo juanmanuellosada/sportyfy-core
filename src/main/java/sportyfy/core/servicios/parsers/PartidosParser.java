@@ -19,7 +19,11 @@ import java.util.stream.Collectors;
 
 @Data
 public class PartidosParser {
-        private final List<Equipo> equipos;
+
+        /**
+         * Lista de equipos.
+         */
+        private final Set<Equipo> equipos;
 
         /**
          * Crea los partidos a partir de un directorio que contiene archivos JSON de
@@ -31,20 +35,20 @@ public class PartidosParser {
          * @return Un set de partidos.
          * @throws IOException Si hay un error al leer los archivos.
          */
-        public static Set<Partido> crearPartidos(String rutaCarpeta, ObjectMapper objectMapper, List<Equipo> equipos)
+        public static Set<Partido> crearPartidos(String rutaCarpeta, ObjectMapper objectMapper, Set<Equipo> equipos)
                         throws IOException {
                 File directorio = new File(rutaCarpeta);
                 File[] archivos = directorio.listFiles((dir, name) -> name.toLowerCase().endsWith(".json"));
 
                 return archivos != null
                                 ? Arrays.stream(archivos)
-                                                .flatMap(archivo -> LectorJson
-                                                                .leerPartidos(archivo.getPath(), objectMapper)
-                                                                .orElse(Collections.emptyList()).stream()
-                                                                .map(dto -> PartidosFactory.crearPartido(dto, equipos))
-                                                                .filter(Optional::isPresent)
-                                                                .map(Optional::get))
-                                                .collect(Collectors.toList())
-                                : Collections.emptyList();
+                                                .map(archivo -> LectorJson.leerPartidos(archivo.getAbsolutePath(),
+                                                                objectMapper))
+                                                .filter(Optional::isPresent)
+                                                .map(Optional::get)
+                                                .flatMap(Collection::stream)
+                                                .map(partidoDTO -> PartidosFactory.crearPartido(partidoDTO, equipos))
+                                                .collect(Collectors.toSet())
+                                : Collections.emptySet();
         }
 }

@@ -1,11 +1,15 @@
 package sportyfy.core.entidades.equipo;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Entidad que representa un equipo en el sistema
  */
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
 public class Equipo {
     /**
      * Nombre del equipo

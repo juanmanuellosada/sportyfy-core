@@ -5,12 +5,10 @@ import lombok.Data;
 import sportyfy.core.entidades.Pronosticador;
 import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.entidades.partido.Partido;
+import sportyfy.core.entidades.resultado.Resultado;
 import sportyfy.core.servicios.buscadores.BuscadorPronosticadores;
 
 import java.beans.PropertyChangeSupport;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 
 /**
@@ -33,11 +31,9 @@ public class SportyfyCore {
     /**
      * Soporte para el patrón Observer
      */
-    private final PropertyChangeSupport support = new PropertyChangeSupport(this);
+    private final PropertyChangeSupport notificador = new PropertyChangeSupport(this);
 
     private Set<Pronosticador> pronosticadores;
-    private List<Equipo> equipos;
-    private Set<Partido> partidos;
 
     /**
      * Pronostica un partido
@@ -46,16 +42,15 @@ public class SportyfyCore {
      * @param nombrePronosticador Nombre del pronosticador
      * @throws IllegalArgumentException Si no se encuentra el pronosticador
      */
-    public void pronosticar(Partido partido, String nombrePronosticador) {
-        Optional<Pronosticador> pronosticadorOpt = new BuscadorPronosticadores().buscarPronosticador(pronosticadores,
-                nombrePronosticador);
-
-        Pronosticador pronosticador = pronosticadorOpt
+    public Resultado pronosticar(Partido partido, String nombrePronosticador) {
+        Pronosticador pronosticador = new BuscadorPronosticadores().buscarPronosticador(pronosticadores,
+                nombrePronosticador)
                 .orElseThrow(() -> new IllegalArgumentException("No se encontró el pronosticador"));
 
-        pronosticador.setPartidos(new HashSet<>(partidos));
-        pronosticador.pronosticar(partido);
+        Resultado resultado = pronosticador.pronosticar(partido);
 
-        support.firePropertyChange("partido", null, partido);
+        notificador.firePropertyChange("resultado", null, resultado);
+
+        return resultado;
     }
 }
