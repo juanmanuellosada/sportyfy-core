@@ -43,14 +43,13 @@ public class SportyfyCore {
      * @throws IllegalArgumentException Si no se encuentra el pronosticador
      */
     public Resultado pronosticar(Partido partido, String nombrePronosticador) {
-        Pronosticador pronosticador = new BuscadorPronosticadores().buscarPronosticador(pronosticadores,
-                nombrePronosticador)
+        Pronosticador pronosticador = new BuscadorPronosticadores()
+                .buscarPronosticador(pronosticadores, nombrePronosticador)
                 .orElseThrow(() -> new IllegalArgumentException("No se encontró el pronosticador"));
 
         Resultado resultado = pronosticador.pronosticar(partido);
 
         notificador.firePropertyChange("resultado", null, resultado);
-
         return resultado;
     }
 }

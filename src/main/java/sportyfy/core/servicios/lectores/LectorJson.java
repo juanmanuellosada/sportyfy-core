@@ -2,14 +2,11 @@ package sportyfy.core.servicios.lectores;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import sportyfy.core.DTOs.PartidoDTO;
+import sportyfy.core.DTOs.EntradaResultadoPartidoDTO;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -21,18 +18,23 @@ public class LectorJson {
     private static final Logger logger = Logger.getLogger(LectorJson.class.getName());
 
     /**
-     * Método que lee todos los archivos JSON de una carpeta.
+     * Método que lee todos los resultados de los partidos desde un archivo JSON.
      *
-     * @param rutaArchivo Ruta del archivo que contiene los partidos.
-     * @return Lista de partidos.
+     * @param rutaArchivo  Ruta del archivo que contiene los partidos.
+     * @param objectMapper El ObjectMapper que se encarga de leer el archivo.
+     * @return Lista de resultados de los partidos.
      */
-    public static Optional<List<PartidoDTO>> leerPartidos(String rutaArchivo, ObjectMapper objectMapper) {
+    public static List<EntradaResultadoPartidoDTO> leerResultados(String rutaArchivo, ObjectMapper objectMapper) {
+        if (rutaArchivo == null || objectMapper == null) {
+            throw new IllegalArgumentException("La ruta del archivo y el ObjectMapper no pueden ser nulos");
+        }
+
         try {
-            return Optional.of(objectMapper.readValue(new File(rutaArchivo), new TypeReference<List<PartidoDTO>>() {
-            }));
+            return objectMapper.readValue(new File(rutaArchivo), new TypeReference<>() {
+            });
         } catch (IOException e) {
-            logger.severe("Error al leer el archivo " + rutaArchivo + ": " + e.getMessage());
-            return Optional.empty();
+            logger.severe("Error al leer el archivo de resultados.");
+            throw new RuntimeException("Error al leer el archivo de resultados.", e);
         }
     }
 
