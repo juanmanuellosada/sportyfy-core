@@ -1,7 +1,10 @@
 package sportyfy.core.entidades;
 
+import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.entidades.partido.Partido;
 import sportyfy.core.entidades.resultado.Resultado;
+
+import java.util.Set;
 
 /**
  * Interfaz que representa un pronosticador.
@@ -30,4 +33,12 @@ public interface Pronosticador {
      * @return El deporte del pronosticador.
      */
     String getDeporte();
+
+    /**
+     * Devuelve los equipos del pronosticador.
+     *
+     * @return Un set de equipos.
+     * 
+     */
+    Set<Equipo> getEquipos();
 }
