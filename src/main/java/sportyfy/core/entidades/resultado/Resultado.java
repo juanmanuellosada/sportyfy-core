@@ -37,10 +37,28 @@ public class Resultado {
     /**
      * Seteo el marcador de un equipo.
      *
-     * @param equipo     El equipo.
-     * @param valor El valor del marcador.
+     * @param equipo El equipo.
+     * @param valor  El valor del marcador.
      */
     public void setMarcador(Equipo equipo, Integer valor) {
         marcadorPorEquipo.put(equipo, valor);
+    }
+
+    /**
+     * Devuelve el primer equipo del resultado.
+     *
+     * @return El primer equipo.
+     */
+    public Equipo getPrimerEquipo() {
+        return marcadorPorEquipo.keySet().stream().findFirst().get();
+    }
+
+    /**
+     * Devuelve el segundo equipo del resultado.
+     *
+     * @return El segundo equipo.
+     */
+    public Equipo getSegundoEquipo() {
+        return marcadorPorEquipo.keySet().stream().skip(1).findFirst().get();
     }
 }
