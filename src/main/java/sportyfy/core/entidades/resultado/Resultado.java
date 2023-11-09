@@ -5,12 +5,16 @@ import java.util.Map;
 import java.util.Optional;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 import sportyfy.core.entidades.equipo.Equipo;
 
 /**
  * Entidad que representa un resultado en el sistema.
  */
 @AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Resultado {
 
     /**
@@ -28,5 +32,15 @@ public class Resultado {
      */
     public Optional<Integer> getMarcador(Equipo equipo) {
         return Optional.ofNullable(marcadorPorEquipo.get(equipo));
+    }
+
+    /**
+     * Seteo el marcador de un equipo.
+     *
+     * @param equipo     El equipo.
+     * @param valor El valor del marcador.
+     */
+    public void setMarcador(Equipo equipo, Integer valor) {
+        marcadorPorEquipo.put(equipo, valor);
     }
 }

@@ -3,6 +3,7 @@ package sportyfy.core.entidades.partido;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.entidades.resultado.Resultado;
 
@@ -16,6 +17,7 @@ import java.util.stream.Stream;
 @Getter
 @Setter
 @AllArgsConstructor
+@ToString
 public class Partido {
 
     private Equipo local;
