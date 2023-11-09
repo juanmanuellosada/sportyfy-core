@@ -1,11 +1,12 @@
-[
-  {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Lanus"
+[{
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Lanus"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -16,12 +17,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -32,12 +35,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Tigre"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Tigre"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -48,12 +53,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Argentinos JRS"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Argentinos JRS"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -64,12 +71,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Belgrano Cordoba"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Belgrano Cordoba"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -80,12 +89,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "River Plate"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "River Plate"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -96,12 +107,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Racing Club"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Racing Club"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -112,12 +125,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Rosario Central"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Rosario Central"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -128,12 +143,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Estudiantes L.P."
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Estudiantes L.P."
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -144,12 +161,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "San Lorenzo"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "San Lorenzo"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -160,12 +179,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Colon Santa Fe"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Colon Santa Fe"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -176,12 +197,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Central Cordoba de Santiago"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Central Cordoba de Santiago"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -192,12 +215,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Instituto Cordoba"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Instituto Cordoba"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -208,12 +233,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Banfield"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Banfield"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -224,12 +251,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -240,12 +269,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Velez Sarsfield"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Velez Sarsfield"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -256,12 +287,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Platense"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Platense"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -272,12 +305,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Talleres Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Talleres Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -288,12 +323,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Boca Juniors"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Boca Juniors"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -304,12 +341,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Atletico Tucuman"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Atletico Tucuman"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -320,12 +359,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Independiente"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Independiente"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -336,12 +377,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Newells Old Boys"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Newells Old Boys"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -352,12 +395,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Gimnasia L.P."
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Gimnasia L.P."
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -368,12 +413,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Huracan"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Huracan"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -384,12 +431,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Union Santa Fe"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Union Santa Fe"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -400,12 +449,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Sarmiento Junin"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Sarmiento Junin"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -416,12 +467,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Barracas Central"
-      },
-      "visitante": {
-        "nombre": "Godoy Cruz"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Barracas Central"
+        },
+        "visitante": {
+          "nombre": "Godoy Cruz"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {

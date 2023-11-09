@@ -1,11 +1,12 @@
-[
-  {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Union Santa Fe"
+[{
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Union Santa Fe"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -16,12 +17,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Sarmiento Junin"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Sarmiento Junin"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -32,12 +35,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Godoy Cruz"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Godoy Cruz"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -48,12 +53,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Lanus"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Lanus"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -64,12 +71,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -80,12 +89,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Tigre"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Tigre"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -96,12 +107,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Argentinos JRS"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Argentinos JRS"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -112,12 +125,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "River Plate"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "River Plate"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -128,12 +143,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Belgrano Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Belgrano Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -144,12 +161,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Racing Club"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Racing Club"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -160,12 +179,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Rosario Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Rosario Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -176,12 +197,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Estudiantes L.P."
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Estudiantes L.P."
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -192,12 +215,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "San Lorenzo"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "San Lorenzo"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -208,12 +233,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Colon Santa Fe"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Colon Santa Fe"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -224,12 +251,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -240,12 +269,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Instituto Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Instituto Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -256,12 +287,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Banfield"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Banfield"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -272,12 +305,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Central Cordoba de Santiago"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Central Cordoba de Santiago"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -288,12 +323,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Velez Sarsfield"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Velez Sarsfield"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -304,12 +341,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Platense"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Platense"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -320,12 +359,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Talleres Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Talleres Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -336,12 +377,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Boca Juniors"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Boca Juniors"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -352,12 +395,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Atletico Tucuman"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Atletico Tucuman"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -368,12 +413,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Independiente"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Independiente"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -384,12 +431,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Newells Old Boys"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Newells Old Boys"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -400,12 +449,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Gimnasia L.P."
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Gimnasia L.P."
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -416,12 +467,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Huracan"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Huracan"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {

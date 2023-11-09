@@ -1,11 +1,12 @@
-[
-  {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Colon Santa Fe"
+[{
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Colon Santa Fe"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -16,12 +17,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Barracas Central"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Barracas Central"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -32,12 +35,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Instituto Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Instituto Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -48,12 +53,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Banfield"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Banfield"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -64,12 +71,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Defensa Y Justicia"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Defensa Y Justicia"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -80,12 +89,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Velez Sarsfield"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Velez Sarsfield"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -96,12 +107,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Platense"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Platense"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -112,12 +125,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Talleres Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Talleres Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -128,12 +143,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Boca Juniors"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Boca Juniors"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -144,12 +161,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Atletico Tucuman"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Atletico Tucuman"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -160,12 +179,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Independiente"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Independiente"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -176,12 +197,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Newells Old Boys"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Newells Old Boys"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -192,12 +215,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Gimnasia L.P."
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Gimnasia L.P."
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -208,12 +233,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Huracan"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Huracan"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -224,12 +251,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Union Santa Fe"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Union Santa Fe"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -240,12 +269,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Sarmiento Junin"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Sarmiento Junin"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -256,12 +287,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Godoy Cruz"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Godoy Cruz"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -272,12 +305,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Lanus"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Lanus"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -288,12 +323,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Central Cordoba de Santiago"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Central Cordoba de Santiago"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -304,12 +341,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Tigre"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Tigre"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -320,12 +359,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Argentinos JRS"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Argentinos JRS"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -336,12 +377,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Belgrano Cordoba"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Belgrano Cordoba"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -352,12 +395,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "River Plate"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "River Plate"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -368,12 +413,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Racing Club"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Racing Club"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -384,12 +431,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Rosario Central"
-      },
-      "visitante": {
-        "nombre": "Arsenal Sarandi"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Rosario Central"
+        },
+        "visitante": {
+          "nombre": "Arsenal Sarandi"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -400,12 +449,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "Estudiantes L.P."
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "Estudiantes L.P."
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
@@ -416,12 +467,14 @@
     }
   },
   {
-    "partido": {
-      "local": {
-        "nombre": "Arsenal Sarandi"
-      },
-      "visitante": {
-        "nombre": "San Lorenzo"
+    "resultadoPartido": {
+      "partido": {
+        "local": {
+          "nombre": "Arsenal Sarandi"
+        },
+        "visitante": {
+          "nombre": "San Lorenzo"
+        }
       },
       "resultado": {
         "marcadorPorEquipo": {
