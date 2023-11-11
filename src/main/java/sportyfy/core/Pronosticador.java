@@ -1,4 +1,4 @@
-package sportyfy.core.entidades;
+package sportyfy.core;
 
 import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.entidades.partido.Partido;
