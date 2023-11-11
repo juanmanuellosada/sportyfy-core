@@ -1,7 +1,7 @@
 package sportyfy.core.servicios.buscadores;
 
 import lombok.Data;
-import sportyfy.core.entidades.Pronosticador;
+import sportyfy.core.Pronosticador;
 
 import java.io.File;
 import java.io.FileNotFoundException;

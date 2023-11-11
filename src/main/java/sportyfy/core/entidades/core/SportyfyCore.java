@@ -2,7 +2,7 @@ package sportyfy.core.entidades.core;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import sportyfy.core.entidades.Pronosticador;
+import sportyfy.core.Pronosticador;
 import sportyfy.core.entidades.equipo.Equipo;
 import sportyfy.core.entidades.partido.Partido;
 import sportyfy.core.entidades.resultado.Resultado;
