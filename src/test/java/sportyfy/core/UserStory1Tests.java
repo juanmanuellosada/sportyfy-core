@@ -11,7 +11,6 @@ import sportyfy.core.servicios.iniciador.IniciadorSportyfyCore;
 import java.util.Optional;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.collection.IsEmptyCollection.empty;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNot.not;
@@ -20,20 +19,15 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserStory1Tests {
-/*
-    private SportyfyCore sportyfyCore;
 
+    private SportyfyCore sportyfyCore;
     private SportyfyCore sportyfyCoreDosPronosticadores;
     private Equipo riverPlate;
     private Equipo talleres;
     private Equipo newellsOldBoys;
-
     private Equipo equipoSinPartidos;
-
     private Equipo equipoNulo;
-
     private Partido partidoNulo;
-
     private static final String PRONOSTICADOR_FUTBOL = "PronosticadorFutbol";
     private static final String PRONOSTICADOR_FUTBOL_CARA_A_CARA = "PronosticadorFutbolCaraACara";
     private static final String rutaPartidos = "src/main/resources/datos/partidos";
@@ -41,6 +35,9 @@ public class UserStory1Tests {
     @BeforeEach
     public void escenario() {
         sportyfyCore = IniciadorSportyfyCore.iniciar("src/main/resources/pronosticadores",
+                rutaPartidos);
+        sportyfyCoreDosPronosticadores = IniciadorSportyfyCore.iniciar(
+                "src/test/resources/pronosticadoresDosPronosticadores",
                 rutaPartidos);
         Pronosticador pronosticadorFutbol = sportyfyCore.getPronosticadores().iterator().next();
         assertThat(pronosticadorFutbol.getDeporte(), is("Fútbol"));
@@ -62,21 +59,29 @@ public class UserStory1Tests {
     @Order(1)
     @DisplayName("Pronóstico efectivo del partido (hay ganador)")
     public void CA1_PronosticoGanador() {
-        Partido partido = new Partido(riverPlate, talleres);
-        Resultado resultadoPronosticadorFutbol = sportyfyCore.pronosticar(partido, PRONOSTICADOR_FUTBOL);
+        Partido partido = new Partido(riverPlate, newellsOldBoys);
+        Resultado resultadoPronosticadorFutbol = sportyfyCoreDosPronosticadores.pronosticar(partido,
+                PRONOSTICADOR_FUTBOL);
+        Resultado resultadoPronosticadorFutbolCaraACara = sportyfyCoreDosPronosticadores.pronosticar(partido,
+                PRONOSTICADOR_FUTBOL_CARA_A_CARA);
+
         assertThat(resultadoPronosticadorFutbol, is(notNullValue()));
         assertThat(resultadoPronosticadorFutbol.getMarcador(riverPlate), is(notNullValue()));
-        assertThat(resultadoPronosticadorFutbol.getMarcador(talleres), is(notNullValue()));
-        assertThat(resultadoPronosticadorFutbol.getGanador(), is(Optional.of(riverPlate)));
+        assertThat(resultadoPronosticadorFutbol.getMarcador(newellsOldBoys), is(notNullValue()));
+        assertThat(resultadoPronosticadorFutbol.getGanador(), is(Optional.of(newellsOldBoys)));
 
+        assertThat(resultadoPronosticadorFutbolCaraACara, is(notNullValue()));
+        assertThat(resultadoPronosticadorFutbolCaraACara.getMarcador(riverPlate), is(notNullValue()));
+        assertThat(resultadoPronosticadorFutbolCaraACara.getMarcador(newellsOldBoys), is(notNullValue()));
+        assertThat(resultadoPronosticadorFutbolCaraACara.getGanador(), is(Optional.empty()));
     }
 
     @Test
     @Order(2)
     @DisplayName("Pronóstico efectivo del partido (empate)")
     public void CA2_PronosticoEmpate() {
-        Partido partido = new Partido(riverPlate, newellsOldBoys);
-        Resultado resultado = sportyfyCore.pronosticar(partido, "PronosticadorFutbol");
+        Partido partido = new Partido(riverPlate, talleres);
+        Resultado resultado = sportyfyCore.pronosticar(partido, PRONOSTICADOR_FUTBOL);
         assertThat(resultado, is(notNullValue()));
         assertThat(resultado.getMarcador(riverPlate), is(notNullValue()));
         assertThat(resultado.getMarcador(newellsOldBoys), is(notNullValue()));
@@ -87,13 +92,13 @@ public class UserStory1Tests {
     @Order(3)
     @DisplayName("No se encuentran partidos de equipo (gana el otro equipo con partidos)")
     public void CA3_NoSeEncuentranPartidosDeEquipo() {
-        Partido partido = new Partido(riverPlate, equipoSinPartidos);
-        Resultado resultado = sportyfyCore.pronosticar(partido, "PronosticadorFutbol");
+        Partido partido = new Partido(newellsOldBoys, equipoSinPartidos);
+        Resultado resultado = sportyfyCore.pronosticar(partido, PRONOSTICADOR_FUTBOL);
         assertThat(resultado, is(notNullValue()));
-        assertThat(resultado.getMarcador(riverPlate), is(notNullValue()));
+        assertThat(resultado.getMarcador(newellsOldBoys), is(notNullValue()));
         assertThat(resultado.getMarcador(equipoSinPartidos), is(notNullValue()));
         assertThat(resultado.getMarcador(equipoSinPartidos), is(not(0)));
-        assertThat(resultado.getGanador(), is(Optional.of(riverPlate)));
+        assertThat(resultado.getGanador(), is(Optional.of(newellsOldBoys)));
     }
 
     @Test
@@ -101,7 +106,7 @@ public class UserStory1Tests {
     @DisplayName("Intento hacer un pronostico con un partido con el mismo equipo")
     public void CA4_PronosticoMismoEquipo() {
         Partido partido = new Partido(riverPlate, riverPlate);
-        assertThrows(IllegalArgumentException.class, () -> sportyfyCore.pronosticar(partido, "PronosticadorFutbol"));
+        assertThrows(IllegalArgumentException.class, () -> sportyfyCore.pronosticar(partido, PRONOSTICADOR_FUTBOL));
     }
 
     @Test
@@ -109,7 +114,7 @@ public class UserStory1Tests {
     @DisplayName("Intento hacer un pronostico con un partido con un equipo null")
     public void CA5_PronosticoEquipoNull() {
         Partido partido = new Partido(riverPlate, equipoNulo);
-        assertThrows(NullPointerException.class, () -> sportyfyCore.pronosticar(partido, "PronosticadorFutbol"));
+        assertThrows(NullPointerException.class, () -> sportyfyCore.pronosticar(partido, PRONOSTICADOR_FUTBOL));
     }
 
     @Test
@@ -117,14 +122,15 @@ public class UserStory1Tests {
     @DisplayName("Intento hacer un pronostico con un pronosticador desconocido (No lo encuentra en el core)")
     public void CA6_PronosticoPronosticadorDesconocido() {
         Partido partido = new Partido(riverPlate, talleres);
-        assertThrows(IllegalArgumentException.class, () -> sportyfyCore.pronosticar(partido, "PronosticadorDesconocido"));
+        assertThrows(IllegalArgumentException.class,
+                () -> sportyfyCore.pronosticar(partido, "PronosticadorDesconocido"));
     }
 
     @Test
     @Order(7)
     @DisplayName("Intento hacer un pronostico con un partido nulo")
     public void CA7_PronosticoPartidoNulo() {
-        assertThrows(NullPointerException.class, () -> sportyfyCore.pronosticar(partidoNulo, "PronosticadorFutbol"));
+        assertThrows(NullPointerException.class, () -> sportyfyCore.pronosticar(partidoNulo, PRONOSTICADOR_FUTBOL));
     }
 
     @Test
@@ -142,5 +148,5 @@ public class UserStory1Tests {
         Partido partido = new Partido(riverPlate, talleres);
         assertThrows(IllegalArgumentException.class, () -> sportyfyCore.pronosticar(partido, ""));
     }
- */
+
 }

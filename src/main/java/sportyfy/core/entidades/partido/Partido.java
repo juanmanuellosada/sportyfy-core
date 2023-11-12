@@ -28,10 +28,6 @@ public class Partido {
      * @return El equipo ganador del partido.
      */
     public Optional<Equipo> getGanador(Resultado resultado) {
-        if (resultado.getMarcador(local).isEmpty() || resultado.getMarcador(visitante).isEmpty()) {
-            throw new IllegalArgumentException("El resultado debe corresponder a este partido.");
-        }
-
         return Stream.of(local, visitante)
                 .max(Comparator.comparing(equipo -> resultado.getMarcador(equipo).orElse(0)));
     }
