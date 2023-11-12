@@ -61,9 +61,7 @@ public class BuscadorPronosticadores {
                 try {
                     Class<?> cls = Class.forName(nombreClase, true, classLoader);
                     if (Pronosticador.class.isAssignableFrom(cls)) {
-                        Pronosticador pronosticador = (Pronosticador) cls.getDeclaredConstructor().newInstance();
-                        pronosticador.iniciar();
-                        pronosticadores.add(pronosticador);
+                        pronosticadores.add((Pronosticador) cls.getDeclaredConstructor().newInstance());
                     }
                 } catch (Exception e) {
                     logger.severe("Exception: " + e.getMessage());

@@ -1,5 +1,6 @@
 package sportyfy.core.servicios.iniciador;
 
+import sportyfy.core.Pronosticador;
 import sportyfy.core.entidades.core.SportyfyCore;
 import sportyfy.core.servicios.buscadores.BuscadorPronosticadores;
 
@@ -7,6 +8,7 @@ import java.io.IOException;
 
 import lombok.Getter;
 
+import java.util.Set;
 import java.util.logging.Logger;
 
 /**
@@ -18,8 +20,10 @@ public class IniciadorSportyfyCore {
 
         public static SportyfyCore iniciar(String rutaPronosticadores) {
                 try {
-                        return new SportyfyCore(
-                                        new BuscadorPronosticadores().buscarPronosticadores(rutaPronosticadores));
+                        Set<Pronosticador> pronosticadores = new BuscadorPronosticadores()
+                                        .buscarPronosticadores(rutaPronosticadores);
+                        pronosticadores.forEach(Pronosticador::iniciar);
+                        return new SportyfyCore(pronosticadores);
                 } catch (IOException e) {
                         logger.severe("Error al leer el fichero de pronosticadores");
                         throw new RuntimeException("Error al iniciar SportyfyCore", e);
