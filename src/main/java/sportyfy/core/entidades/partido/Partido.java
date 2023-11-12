@@ -37,4 +37,8 @@ public class Partido {
         return Stream.of(local, visitante)
                 .max(Comparator.comparing(equipo -> resultado.getMarcador(equipo).orElse(0)));
     }
+
+    public boolean participa(Equipo equipo) {
+        return local.equals(equipo) || visitante.equals(equipo);
+    }
 }
