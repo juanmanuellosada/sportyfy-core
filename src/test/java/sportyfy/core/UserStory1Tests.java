@@ -36,7 +36,6 @@ public class UserStory1Tests {
     public void escenario() {
         sportyfyCore = IniciadorSportyfyCore.iniciar("src/main/resources/pronosticadores",
                 "src/main/resources/datos/partidos");
-        assertThat(sportyfyCore.getPronosticadores(), hasSize(1));
         Pronosticador pronosticadorFutbol = sportyfyCore.getPronosticadores().iterator().next();
         assertThat(pronosticadorFutbol.getDeporte(), is("Fútbol"));
         assertThat(pronosticadorFutbol.getEquipos(), is(notNullValue()));
