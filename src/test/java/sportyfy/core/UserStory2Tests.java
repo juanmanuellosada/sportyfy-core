@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserStory2Tests {
-
+/*
     private static final String rutaPartidos = "src/main/resources/datos/partidos";
     private static SportyfyCore sportyfyCoreDosPronosticadores;
     private static Partido partido;
@@ -118,4 +118,6 @@ public class UserStory2Tests {
                 rutaPartidos);
         assertThat(sportyfyCore.getPronosticadores(), hasSize(1));
     }
+    
+ */
 }

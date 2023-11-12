@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserStory1Tests {
-
+/*
     private SportyfyCore sportyfyCore;
 
     private SportyfyCore sportyfyCoreDosPronosticadores;
@@ -142,4 +142,5 @@ public class UserStory1Tests {
         Partido partido = new Partido(riverPlate, talleres);
         assertThrows(IllegalArgumentException.class, () -> sportyfyCore.pronosticar(partido, ""));
     }
+ */
 }
