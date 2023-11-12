@@ -43,6 +43,10 @@ public class SportyfyCore {
      * @throws IllegalArgumentException Si no se encuentra el pronosticador
      */
     public Resultado pronosticar(Partido partido, String nombrePronosticador) {
+
+        if(nombrePronosticador==null || nombrePronosticador.isEmpty()){
+            throw new IllegalArgumentException("No se especificó el pronosticador a usar");
+        }
         Pronosticador pronosticador = new BuscadorPronosticadores()
                 .buscarPronosticador(pronosticadores, nombrePronosticador)
                 .orElseThrow(() -> new IllegalArgumentException("No se encontró el pronosticador"));

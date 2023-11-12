@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sportyfy-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sportyfy-core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sportyfy-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sportyfy-core.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sportyfy.core.sportyfy-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sportyfy.core.sportyfy-core.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sportyfy.core.sportyfy-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sportyfy.core.sportyfy-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sportyfy-pronosticador-futbol.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sportyfy-pronosticador-futbol.main.iml" />
     </modules>
   </component>
 </project>
