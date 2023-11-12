@@ -41,24 +41,43 @@ public class Resultado {
      * @param valor  El valor del marcador.
      */
     public void setMarcador(Equipo equipo, Integer valor) {
+        if (equipo == null || valor == null) {
+            throw new IllegalArgumentException("Equipo y valor no pueden ser null");
+        }
         marcadorPorEquipo.put(equipo, valor);
     }
 
     /**
-     * Devuelve el primer equipo del resultado.
+     * Obtengo el primer equipo.
      *
      * @return El primer equipo.
      */
     public Equipo getPrimerEquipo() {
-        return marcadorPorEquipo.keySet().stream().findFirst().get();
+        return marcadorPorEquipo.keySet().stream().findFirst().orElse(null);
     }
 
     /**
-     * Devuelve el segundo equipo del resultado.
+     * Obtengo el segundo equipo.
      *
      * @return El segundo equipo.
      */
     public Equipo getSegundoEquipo() {
-        return marcadorPorEquipo.keySet().stream().skip(1).findFirst().get();
+        return marcadorPorEquipo.keySet().stream().skip(1).findFirst().orElse(null);
+    }
+
+    /**
+     * Obtengo el ganador del partido.
+     *
+     * @return El equipo ganador.
+     */
+    public Optional<Equipo> getGanador() {
+        Equipo primerEquipo = getPrimerEquipo();
+        Equipo segundoEquipo = getSegundoEquipo();
+
+        int marcadorPrimerEquipo = getMarcador(primerEquipo).orElse(0);
+        int marcadorSegundoEquipo = getMarcador(segundoEquipo).orElse(0);
+
+        return marcadorPrimerEquipo == marcadorSegundoEquipo ? Optional.empty()
+                : marcadorPrimerEquipo > marcadorSegundoEquipo ? Optional.of(primerEquipo) : Optional.of(segundoEquipo);
     }
 }

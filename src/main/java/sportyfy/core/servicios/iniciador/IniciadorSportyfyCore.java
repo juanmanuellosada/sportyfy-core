@@ -22,10 +22,9 @@ public class IniciadorSportyfyCore {
         public static SportyfyCore iniciar(String rutaPronosticadores, String rutaCarpetaPartidos) {
                 try {
                         Set<Pronosticador> pronosticadores = new BuscadorPronosticadores()
-                                .buscarPronosticadores(rutaPronosticadores)
-                                .stream()
-                                .peek(pronosticador -> pronosticador.iniciar(rutaCarpetaPartidos))
-                                .collect(Collectors.toSet());
+                                        .buscarPronosticadores(rutaPronosticadores).stream()
+                                        .peek(pronosticador -> pronosticador.iniciar(rutaCarpetaPartidos))
+                                        .collect(Collectors.toSet());
                         return new SportyfyCore(pronosticadores);
                 } catch (IOException e) {
                         logger.severe("Error al leer el fichero de pronosticadores");
