@@ -17,7 +17,7 @@ public interface Pronosticador {
      * 
      * @throws Exception Si ocurre un error al cargar los datos.
      */
-    void iniciar();
+    void iniciar(String rutaCarpetaPartidos);
 
     /**
      * Pronostica un partido.
