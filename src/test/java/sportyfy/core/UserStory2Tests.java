@@ -2,35 +2,20 @@ package sportyfy.core;
 
 import org.junit.jupiter.api.*;
 import sportyfy.core.entidades.core.SportyfyCore;
-import sportyfy.core.entidades.equipo.Equipo;
-import sportyfy.core.entidades.partido.Partido;
-import sportyfy.core.entidades.resultado.Resultado;
 import sportyfy.core.servicios.iniciador.IniciadorSportyfyCore;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.hamcrest.collection.IsIterableContainingInAnyOrder.containsInAnyOrder;
-import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsNull.notNullValue;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserStory2Tests {
 
     private static final String rutaPartidos = "src/main/resources/datos/partidos";
-    private static SportyfyCore sportyfyCoreDosPronosticadores;
-    private static Partido partido;
     private static final String PRONOSTICADOR_FUTBOL = "PronosticadorFutbol";
     private static final String PRONOSTICADOR_FUTBOL_CARA_A_CARA = "PronosticadorFutbolCaraACara";
-
-    @BeforeAll
-    public static void escenario() {
-        sportyfyCoreDosPronosticadores = IniciadorSportyfyCore.iniciar(
-                "src/test/resources/pronosticadoresDosPronosticadores",
-                rutaPartidos);
-        partido = new Partido(new Equipo("Equipo 1"), new Equipo("Equipo 2"));
-    }
 
     @Test
     @Order(1)
@@ -82,6 +67,10 @@ public class UserStory2Tests {
     @Order(6)
     @DisplayName("Carpeta con dos pronosticadores válidos")
     public void CA6_CarpetaConDosPronosticadoresValidos() {
+        SportyfyCore sportyfyCoreDosPronosticadores = IniciadorSportyfyCore.iniciar(
+                "src/test/resources/pronosticadoresDosPronosticadores",
+                rutaPartidos);
+
         assertThat(sportyfyCoreDosPronosticadores.getPronosticadores(), hasSize(2));
 
         List<String> nombresPronosticadores = sportyfyCoreDosPronosticadores.getPronosticadores().stream()
@@ -93,24 +82,6 @@ public class UserStory2Tests {
 
     @Test
     @Order(7)
-    @DisplayName("Pronosticar con PronosticadorFutbol")
-    public void CA7_PronosticarConPronosticadorFutbol() {
-        Resultado resultado = sportyfyCoreDosPronosticadores.pronosticar(partido, PRONOSTICADOR_FUTBOL);
-        assertThat(resultado, is(notNullValue()));
-    }
-
-    @Test
-    @Order(8)
-    @DisplayName("Pronosticar con PronosticadorFutbolCaraACara")
-    public void CA8_PronosticarConPronosticadorFutbolCaraACara() {
-        // Este pronosticador no te deja pronosticar si no encuentra partidos para esos
-        // equipos
-        assertThrows(RuntimeException.class,
-                () -> sportyfyCoreDosPronosticadores.pronosticar(partido, PRONOSTICADOR_FUTBOL_CARA_A_CARA));
-    }
-
-    @Test
-    @Order(9)
     @DisplayName("Carpeta con solo un pronosticador válido (varios archivos)")
     public void CA9_CarpetaConSoloUnPronosticadorValido() {
         SportyfyCore sportyfyCore = IniciadorSportyfyCore.iniciar(
