@@ -66,6 +66,8 @@ public class BuscadorPronosticadores {
                         pronosticadores.add(pronosticador);
                     }
                 } catch (Exception e) {
+                    logger.severe("Exception: " + e.getMessage());
+                    logger.severe("Exception: " + e.toString());
                     logger.severe("Error al cargar la clase: " + nombreClase);
                 }
             });
