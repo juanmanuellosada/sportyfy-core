@@ -18,20 +18,20 @@ public class ResultadoDTO {
 
     /**
      * Método Mapea un DTO a una entidad.
-     * 
-     * @param equipos Los equipos que tiene el sistema.
+     *
      * @return El resultado.
      */
-    public Resultado toResultado(Set<Equipo> equipos) {
+    public Resultado toResultado() {
         if (marcadorPorEquipo == null || marcadorPorEquipo.size() != 2) {
             throw new IllegalArgumentException("El marcador por equipo debe contener exactamente dos entradas");
         }
 
         LinkedHashMap<Equipo, Integer> marcador = new LinkedHashMap<>();
-        marcador.put(BuscadorEquipos.buscarEquipo(equipos, 0, marcadorPorEquipo),
-                (Integer) marcadorPorEquipo.values().toArray()[0]);
-        marcador.put(BuscadorEquipos.buscarEquipo(equipos, 1, marcadorPorEquipo),
-                (Integer) marcadorPorEquipo.values().toArray()[1]);
+        marcador.put(new Equipo(marcadorPorEquipo.keySet().toArray()[0].toString()),
+                marcadorPorEquipo.get(marcadorPorEquipo.keySet().toArray()[1].toString()));
+
+        marcador.put(new Equipo(marcadorPorEquipo.keySet().toArray()[1].toString()),
+                marcadorPorEquipo.get(marcadorPorEquipo.keySet().toArray()[0].toString()));
 
         return new Resultado(marcador);
     }

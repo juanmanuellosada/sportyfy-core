@@ -22,20 +22,17 @@ public class PartidoDTO {
 
     /**
      * Convierte el DTO a una entidad Partido.
-     * 
-     * @param equipos El conjunto de equipos.
+     *
      * @throws IllegalArgumentException Si no se encuentra el equipo con el nombre o
      *                                  si el nombre es nulo o vacío.
      * @return La entidad Partido.
      */
-    public Partido toPartido(Set<Equipo> equipos) {
+    public Partido toPartido() {
         if (this.local == null || this.visitante == null) {
             throw new IllegalArgumentException("Los equipos local y visitante no pueden ser nulos");
         }
 
-        return new Partido(
-                this.local.toEquipo(equipos),
-                this.visitante.toEquipo(equipos));
+        return new Partido(this.local.toEquipo(), this.visitante.toEquipo());
     }
 
 }
