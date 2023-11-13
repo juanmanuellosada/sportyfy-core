@@ -80,4 +80,8 @@ public class Resultado {
         return marcadorPrimerEquipo == marcadorSegundoEquipo ? Optional.empty()
                 : marcadorPrimerEquipo > marcadorSegundoEquipo ? Optional.of(primerEquipo) : Optional.of(segundoEquipo);
     }
+
+    public boolean participa(Equipo equipo) {
+        return marcadorPorEquipo.containsKey(equipo);
+    }
 }
