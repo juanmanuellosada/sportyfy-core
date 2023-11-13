@@ -1,6 +1,5 @@
 package sportyfy.core;
 
-import lombok.Data;
 import org.junit.jupiter.api.*;
 import sportyfy.core.entidades.core.SportyfyCore;
 import sportyfy.core.entidades.equipo.Equipo;
@@ -27,7 +26,7 @@ public class UserStory3Tests {
     private static Set<Pronosticador> pronosticadoresConUnoNuevo;
     private static Equipo riverPlate;
     private static Equipo centralCordoba;
-    private static  Equipo talleres;
+    private static  Equipo arsenal;
     private static Partido partido;
     private static Partido partidoCA3;
     private static final String rutaPartidos = "src/main/resources/datos/partidos";
@@ -44,9 +43,9 @@ public class UserStory3Tests {
 
         riverPlate = new Equipo("River Plate");
         centralCordoba = new Equipo("Central Cordoba de Santiago");
-        talleres = new Equipo ("Talleres Cordoba");
+        arsenal = new Equipo ("Arsenal Sarandi");
         partido = new Partido(riverPlate,centralCordoba);
-        partidoCA3 = new Partido(riverPlate,talleres);
+        partidoCA3 = new Partido(riverPlate, arsenal);
     }
 
     @Test
@@ -73,7 +72,7 @@ public class UserStory3Tests {
         Resultado resultadoPronosticadorFutbol = corePronosticadores.pronosticar(partidoCA3,"PronosticadorFutbol");
         Resultado resultadoPronosticadorCaraACara = corePronosticadores.pronosticar(partidoCA3,"PronosticadorFutbolCaraACara");
         assertEquals(resultadoPronosticadorFutbol.getGanador(),Optional.of(riverPlate));
-        assertEquals(resultadoPronosticadorCaraACara.getGanador(),Optional.of(talleres));
+        assertEquals(resultadoPronosticadorCaraACara.getGanador(),Optional.of(arsenal));
     }
 
     @Test
