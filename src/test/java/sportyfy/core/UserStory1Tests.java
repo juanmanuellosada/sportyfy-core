@@ -68,12 +68,12 @@ public class UserStory1Tests {
         assertThat(resultadoPronosticadorFutbol, is(notNullValue()));
         assertThat(resultadoPronosticadorFutbol.getMarcador(riverPlate), is(notNullValue()));
         assertThat(resultadoPronosticadorFutbol.getMarcador(newellsOldBoys), is(notNullValue()));
-        assertThat(resultadoPronosticadorFutbol.getGanador(), is(Optional.of(newellsOldBoys)));
+        assertThat(resultadoPronosticadorFutbol.getGanador(), is(Optional.of(riverPlate)));
 
         assertThat(resultadoPronosticadorFutbolCaraACara, is(notNullValue()));
         assertThat(resultadoPronosticadorFutbolCaraACara.getMarcador(riverPlate), is(notNullValue()));
         assertThat(resultadoPronosticadorFutbolCaraACara.getMarcador(newellsOldBoys), is(notNullValue()));
-        assertThat(resultadoPronosticadorFutbolCaraACara.getGanador(), is(Optional.empty()));
+        assertThat(resultadoPronosticadorFutbolCaraACara.getGanador(), is(Optional.of(riverPlate)));
     }
 
     @Test

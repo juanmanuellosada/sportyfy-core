@@ -1,6 +1,7 @@
 package sportyfy.core.servicios.lectores;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import sportyfy.core.DTOs.EntradaResultadoPartidoDTO;
 
@@ -17,39 +18,17 @@ public class LectorJson {
 
     private static final Logger logger = Logger.getLogger(LectorJson.class.getName());
 
-    /**
-     * Método que lee todos los resultados de los partidos desde un archivo JSON.
-     *
-     * @param rutaArchivo  Ruta del archivo que contiene los partidos.
-     * @param objectMapper El ObjectMapper que se encarga de leer el archivo.
-     * @return Lista de resultados de los partidos.
-     */
-    public static List<EntradaResultadoPartidoDTO> leerResultados(String rutaArchivo, ObjectMapper objectMapper) {
-        if (rutaArchivo == null || objectMapper == null) {
-            throw new IllegalArgumentException("La ruta del archivo y el ObjectMapper no pueden ser nulos");
-        }
+    public static List<JsonNode> leerArchivoJSON(File archivo, ObjectMapper objectMapper) throws IOException {
+        // Lee el archivo JSON y conviértelo en un objeto JsonNode
+        JsonNode jsonNode = objectMapper.readTree(archivo);
 
-        try {
-            return objectMapper.readValue(new File(rutaArchivo), new TypeReference<>() {
-            });
-        } catch (IOException e) {
-            logger.severe("Error al leer el archivo de resultados.");
-            throw new RuntimeException("Error al leer el archivo de resultados.", e);
+        // Si el nodo es un array, convierte cada elemento en una lista de JsonNode
+        if (jsonNode.isArray()) {
+            return objectMapper.readerFor(new TypeReference<List<JsonNode>>() {})
+                    .readValue(jsonNode);
+        } else {
+            // Si el nodo no es un array, simplemente crea una lista con ese nodo
+            return Collections.singletonList(jsonNode);
         }
-    }
-
-    /**
-     * Lee los nombres de los archivos JSON desde una carpeta y los devuelve como
-     * una lista de cadenas.
-     *
-     * @param rutaCarpeta La carpeta que contiene los archivos JSON.
-     * @return Una lista de nombres de archivos JSON.
-     */
-    public static List<String> leerNombresArchivosJsons(String rutaCarpeta) {
-        return Arrays
-                .stream(Objects.requireNonNull(
-                        new File(rutaCarpeta).listFiles((dir, name) -> name.toLowerCase().endsWith(".json"))))
-                .map(File::getName)
-                .collect(Collectors.toList());
     }
 }
