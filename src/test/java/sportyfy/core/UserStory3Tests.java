@@ -9,7 +9,7 @@ import sportyfy.core.entidades.resultado.Resultado;
 import sportyfy.core.servicios.buscadores.BuscadorPronosticadores;
 import sportyfy.core.servicios.iniciador.IniciadorSportyfyCore;
 
-import java.io.IOException;
+
 import java.util.Optional;
 import java.util.Set;
 
@@ -17,18 +17,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserStory3Tests {
-
-    /*"caso 1 -> se prueba que el pronosticador implementado en esta it1 pronostica"
-
-    "caso 2 -> tengo los dos pronosticadores por defecto, elijo uno para pronosticar"
-
-    "caso 3 -> elijo un partido y aplico ambos pronosticadores, me dan un ganador diferente"
-
-    "caso 4 -> se agrega un nuevo pronosticador al sistema (se le pasa al buscadorPronosticadores la ruta donde se encuentran los pronosticadores" +
-            "por defecto y el nuevo), entonces el SportyfyCore tendrá cargados 3 pronosticadores que el usuario podrá elegir en la UI"
-
-    "caso 5 -> " */
-
 
     private static SportyfyCore corePronosticadores;
     private static SportyfyCore corePronosticadorCaraACara;

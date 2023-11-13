@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc55aaa-f2ca-4d51-9c9b-1eb14f7f7ffd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sportyfy/core/entidades/core/SportyfyCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sportyfy/core/entidades/core/SportyfyCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sportyfy/core/UserStory3Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sportyfy/core/UserStory3Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadorCaraACara/sportyfy-pronosticador-futbol-2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadorCaraACara/sportyfy-pronosticador-futbol-2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo/sportyfy-pronosticador-futbol-2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo/sportyfy-pronosticador-futbol-2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo/sportyfy-pronosticador-futbol.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo/sportyfy-pronosticador-futbol.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresPorDefecto/sportyfy-pronosticador-futbol-2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresPorDefecto/sportyfy-pronosticador-futbol-2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresPorDefecto/sportyfy-pronosticador-futbol.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/carpetasPruebaUS3/pronosticadoresPorDefecto/sportyfy-pronosticador-futbol.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-pronosticador-futbol/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara/src/main/java/sportyfy/pronosticadorFutbolCaraACara/PronosticadorFutbolCaraACara.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara/src/main/java/sportyfy/pronosticadorFutbolCaraACara/PronosticadorFutbolCaraACara.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../sportyfy-pronosticador-futbol-v1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara">
       <ProjectState />
     </projectState>
   </component>
@@ -97,16 +106,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/programas detrabajo/intellij proyecto PP2/sportyfy-core/src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/programas detrabajo/intellij proyecto PP2/sportyfy-core/src/test/resources/carpetasPruebaUS3/pronosticadorCaraACara",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.433832",
+    "project.structure.side.proportion": "0.7468355",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programas detrabajo\intellij proyecto PP2\sportyfy-core\src\test\resources\carpetasPruebaUS3\pronosticadorCaraACara" />
       <recent name="D:\programas detrabajo\intellij proyecto PP2\sportyfy-core\src\test\resources\carpetasPruebaUS3\pronosticadoresConUnoNuevo" />
+      <recent name="D:\programas detrabajo\intellij proyecto PP2\sportyfy-core\src\test\resources\carpetasPruebaUS3\pronosticadoresPorDefecto" />
       <recent name="D:\programas detrabajo\intellij proyecto PP2\sportyfy-core\src\test\resources\carpetasPruebaUS3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -119,10 +130,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.UserStory3Tests">
-    <configuration name="PronosticadorNuevo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="D:/programas detrabajo/intellij proyecto PP2/sportyfy-pronosticadorFutbol-CaraACara [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../PronosticadorNuevo" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -131,6 +142,28 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="D:/programas detrabajo/intellij proyecto PP2/sportyfy-pronosticadorFutbol-CaraACara [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticadorFutbol-CaraACara" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,7 +198,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserStory3Tests.CA5_rutaInexistenteParaAgregarPronosticador" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserStory3Tests.CA1_PronosticoCaraACara" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +211,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;sportyfy.core.UserStory3Tests.CA5_rutaInexistenteParaAgregarPronosticador&quot;" />
+            <option value="&quot;sportyfy.core.UserStory3Tests.CA1_PronosticoCaraACara&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,61 +222,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserStory3Tests.CA6_SeBuscaPronosticarConPronosticadorInexistente" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="sportyfy-pronosticador-futbol [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../sportyfy-pronosticador-futbol" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sportyfy.core.UserStory3Tests.CA6_SeBuscaPronosticarConPronosticadorInexistente&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserStory3Tests.CA7_NoSeEspecificaUnPronosticador" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;sportyfy.core.UserStory3Tests.CA7_NoSeEspecificaUnPronosticador&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UserStory3Tests" />
-        <item itemvalue="Gradle.UserStory3Tests.CA7_NoSeEspecificaUnPronosticador" />
-        <item itemvalue="Gradle.UserStory3Tests.CA6_SeBuscaPronosticarConPronosticadorInexistente" />
-        <item itemvalue="Gradle.UserStory3Tests.CA5_rutaInexistenteParaAgregarPronosticador" />
-        <item itemvalue="Gradle.PronosticadorNuevo [build]" />
+        <item itemvalue="Gradle.UserStory3Tests.CA1_PronosticoCaraACara" />
+        <item itemvalue="Gradle.D:/programas detrabajo/intellij proyecto PP2/sportyfy-pronosticadorFutbol-CaraACara [build]" />
+        <item itemvalue="Gradle.D:/programas detrabajo/intellij proyecto PP2/sportyfy-pronosticadorFutbol-CaraACara [clean]" />
+        <item itemvalue="Gradle.sportyfy-pronosticador-futbol [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +264,16 @@
       <updated>1699146268255</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
