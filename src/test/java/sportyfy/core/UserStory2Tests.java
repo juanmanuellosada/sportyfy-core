@@ -37,7 +37,7 @@ public class UserStory2Tests {
 
     @Test
     @Order(3)
-    @DisplayName("Carpeta con un pronosticador inválido")
+    @DisplayName("Carpeta con archivo inválido ( no es .jar)")
     public void CA3_CarpetaConUnPronosticadorInvalido() {
         assertThrows(RuntimeException.class,
                 () -> new IniciadorSportyfyCore(false).iniciar("src/test/resources/pronosticadorExtensionInvalida",
@@ -83,7 +83,7 @@ public class UserStory2Tests {
     @Test
     @Order(7)
     @DisplayName("Carpeta con solo un pronosticador válido (varios archivos)")
-    public void CA9_CarpetaConSoloUnPronosticadorValido() {
+    public void CA7_CarpetaConSoloUnPronosticadorValido() {
         SportyfyCore sportyfyCore = new IniciadorSportyfyCore(false).iniciar(
                 "src/test/resources/pronosticadoresUnoValidoVariosInvalidos",
                 rutaPartidos);
