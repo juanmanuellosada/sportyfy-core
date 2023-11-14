@@ -58,8 +58,6 @@ public class UserStory5Tests {
 
         System.out.println(historial.getPronosticosRealizados());
         assertThat(historial.getPronosticosRealizados(), is(not(empty())));
-        assertTrue(historial.getPronosticosRealizados().containsKey(partido));
-
         List<Resultado> resultados = historial.getPronosticosRealizados().get(partido);
 
         assertThat(resultados, hasSize(2));
