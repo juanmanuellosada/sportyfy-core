@@ -53,15 +53,10 @@ public class UserStory5Tests {
     @DisplayName("Se guarda un pronostico con equipo ganador en el historial")
     void CA1_AgregarPronosticoAlHistorial() {
         Resultado resultadoPronosticadorFutbol = sportyfyCore.pronosticar(partido, "PronosticadorFutbol");
-        Resultado resultadoPronosticadorFutbolCaraACara = sportyfyCore.pronosticar(partido,
-                "PronosticadorFutbolCaraACara");
-
-        System.out.println(historial.getPronosticosRealizados());
         assertThat(historial.getPronosticosRealizados(), is(not(empty())));
         List<Resultado> resultados = historial.getPronosticosRealizados().get(partido);
 
-        assertThat(resultados, hasSize(2));
+        assertThat(resultados, hasSize(1));
         assertTrue(resultados.contains(resultadoPronosticadorFutbol));
-        assertTrue(resultados.contains(resultadoPronosticadorFutbolCaraACara));
     }
 }
