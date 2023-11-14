@@ -3,14 +3,19 @@ plugins {
     id "io.freefair.lombok" version "8.4"
 }
 
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.0'
-    testImplementation project(path: ':')
-    testImplementation project(path: ':')
+    implementation 'com.github.juanmanuellosada:sportyfy-api-football:3d9812e06b'
+    implementation 'com.github.juanmanuellosada:sportyfy-historial:4dcb62be55'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
     testImplementation 'org.hamcrest:hamcrest:2.2'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.3'

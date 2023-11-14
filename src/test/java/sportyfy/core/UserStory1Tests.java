@@ -34,9 +34,9 @@ public class UserStory1Tests {
 
     @BeforeEach
     public void escenario() {
-        sportyfyCore = IniciadorSportyfyCore.iniciar("src/main/resources/pronosticadores",
+        sportyfyCore = new IniciadorSportyfyCore(false).iniciar("src/main/resources/pronosticadores",
                 rutaPartidos);
-        sportyfyCoreDosPronosticadores = IniciadorSportyfyCore.iniciar(
+        sportyfyCoreDosPronosticadores = new IniciadorSportyfyCore(false).iniciar(
                 "src/test/resources/pronosticadoresDosPronosticadores",
                 rutaPartidos);
         Pronosticador pronosticadorFutbol = sportyfyCore.getPronosticadores().iterator().next();

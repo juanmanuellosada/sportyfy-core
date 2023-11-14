@@ -34,15 +34,15 @@ public class UserStory3Tests {
 
     @BeforeAll
     public static void escenario() {
-        corePronosticadores = IniciadorSportyfyCore
+        corePronosticadores = new IniciadorSportyfyCore(false)
                 .iniciar("src/test/resources/carpetasPruebaUS3/pronosticadoresPorDefecto", rutaPartidos);
         pronosticadoresPorDefecto = corePronosticadores.getPronosticadores();
 
-        SportyfyCore corePronosticadorCaraACara = IniciadorSportyfyCore
+        SportyfyCore corePronosticadorCaraACara = new IniciadorSportyfyCore(false)
                 .iniciar("src/test/resources/carpetasPruebaUS3/pronosticadorCaraACara", rutaPartidos);
         pronosticadorCaraACara = corePronosticadorCaraACara.getPronosticadores().iterator().next();
 
-        SportyfyCore corePronosticadoresConNuevo = IniciadorSportyfyCore
+        SportyfyCore corePronosticadoresConNuevo = new IniciadorSportyfyCore(false)
                 .iniciar("src/test/resources/carpetasPruebaUS3/pronosticadoresConUnoNuevo", rutaPartidos);
         pronosticadoresConUnoNuevo = corePronosticadoresConNuevo.getPronosticadores();
 
@@ -95,7 +95,7 @@ public class UserStory3Tests {
     @Order(5)
     @DisplayName("Se pasa una ruta inexistente al IniciadorSportyfyCore al querer cargar nuevos pronosticadores, devuelve un RuntimeException del iniciador")
     public void CA5_RutaInexistenteParaAgregarPronosticador() {
-        assertThrows(RuntimeException.class, () -> IniciadorSportyfyCore
+        assertThrows(RuntimeException.class, () -> new IniciadorSportyfyCore(false)
                 .iniciar("src/test/resources/carpetasPruebaUS3/direccioninvalida", rutaPartidos));
     }
 
