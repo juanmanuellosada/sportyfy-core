@@ -56,6 +56,7 @@ public class UserStory5Tests {
         Resultado resultadoPronosticadorFutbolCaraACara = sportyfyCore.pronosticar(partido,
                 "PronosticadorFutbolCaraACara");
 
+        System.out.println(historial.getPronosticosRealizados());
         assertThat(historial.getPronosticosRealizados(), is(not(empty())));
         assertTrue(historial.getPronosticosRealizados().containsKey(partido));
 
